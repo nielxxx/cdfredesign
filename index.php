@@ -10,8 +10,8 @@
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon">
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="assets/img/cdf_logo-removebg-preview.png" rel="icon">
+    <link href="assets/img/cdf_logo-removebg-preview.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
     <link
@@ -44,7 +44,7 @@
     <header id="header" class="fixed-top ">
         <div class="container d-flex align-items-center">
 
-            <h1 class="logo me-auto"><a href="index.html">CDF TRADING</a></h1>
+            <h1 class="logo me-auto"><a href="index.php">CDF TRADING</a></h1>
             <!-- Uncomment below if you prefer to use an image logo -->
             <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -52,10 +52,9 @@
                 <ul>
                     <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
                     <li><a class="nav-link scrollto" href="#about">About</a></li>
-                    <li><a class="nav-link scrollto" href="product.php">Product</a></li>
                     <li><a class="nav-link scrollto" href="#services">Services</a></li>
-                    <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
-                    <li><a class="nav-link scrollto" href="#team">Team</a></li>
+                    <li><a class="nav-link scrollto" href="product.php">Product</a></li>
+                    <!--
                     <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="#">Drop Down 1</a></li>
@@ -73,6 +72,7 @@
                             <li><a href="#">Drop Down 3</a></li>
                             <li><a href="#">Drop Down 4</a></li>
                         </ul>
+-->
                     </li>
                     <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
                     <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
@@ -95,13 +95,15 @@
                     </h2>
                     <div class="d-flex justify-content-center justify-content-lg-start">
                         <a href="#about" class="btn-get-started scrollto">Get Started</a>
-                        <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i
-                                class="bi bi-play-circle"></i><span>Watch Video</span></a>
+                       
+                        <a href="https://fb.watch/eqg2dNF_tC/" class="glightbox btn-watch-video"><i
+                                class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
                     </div>
                 </div>
                 <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
                     <img src="assets/img/image1.png" class="img-fluid animated" alt="">
                 </div>
+                    
             </div>
         </div>
 
@@ -109,7 +111,7 @@
 
     <main id="main">
 
-        <!-- ======= Clients Section ======= -->
+        <!-- ======= Clients Section ======= 
         <section id="clients" class="clients section-bg">
             <div class="container">
 
@@ -142,7 +144,7 @@
                 </div>
 
             </div>
-        </section><!-- End Cliens Section -->
+        </section>< End Cliens Section -->
 
         <!-- ======= About Us Section ======= -->
         <section id="about" class="about">
@@ -155,11 +157,11 @@
                 <div class="row content">
                     <div class="col-lg-6">
                         <p>
-                            Welcome to CDF TRADING!. Starting as a small business in Calgary, Alberta, Canada of
+                            <h6>Welcome to CDF TRADING!. Starting as a small business in Calgary, Alberta, Canada of
                             November 2020, we have big dreams.
                             Our passion for DRIED FISH PRODUCTS, means that we provide our customers with nothing but
                             the highest quality of products,
-                            that are guaranteed to meet their needs and keep them satisfied! With a motivated team.
+                            that are guaranteed to meet their needs and keep them satisfied! With a motivated team. </h6>
                         </p>
                         <ul>
                             <li><i class="ri-check-double-line"></i> Our Mission is to help small fisherman and their
@@ -174,9 +176,9 @@
                     </div>
                     <div class="col-lg-6 pt-4 pt-lg-0">
                         <p>
-                            We strive to be the creative minds
+                            <h6>We strive to be the creative minds
                             that bring a smile to your face. That’s why we’re always looking for innovative new ways to
-                            get the best to you.
+                            get the best to you. </h6>
                         </p>
                         <a href="https://www.facebook.com/CDFIMPORTS/?ref=pages_you_manage" class="btn-learn-more">Learn
                             More</a>
@@ -263,7 +265,7 @@
             </div>
         </section><!-- End Why Us Section -->
 
-        <!-- ======= Skills Section ======= -->
+        <!-- ======= Skills Section ======= 
         <section id="skills" class="skills">
             <div class="container" data-aos="fade-up">
 
@@ -319,7 +321,7 @@
                 </div>
 
             </div>
-        </section><!-- End Skills Section -->
+        </section> End Skills Section -->
 
         <!-- ======= Services Section ======= -->
         <section id="services" class="services section-bg">
@@ -372,13 +374,11 @@
 
                 <div class="row">
                     <div class="col-lg-9 text-center text-lg-start">
-                        <h3>Call To Action</h3>
-                        <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                            mollit anim id est laborum.</p>
+                        <h3>Contact Us</h3>
+                        <p> Ready to order dried fish and other product on us? Feel free to reach us by sending us your concerns and questions.</p>
                     </div>
                     <div class="col-lg-3 cta-btn-container text-center">
-                        <a class="cta-btn align-middle" href="#">Call To Action</a>
+                        <a class="cta-btn align-middle" href="#contact">Call To Action</a>
                     </div>
                 </div>
 
@@ -500,108 +500,8 @@
 
 
 
-        <div class="container mt-5 mb-5">
-            <div class="card">
-                <div class="row g-0">
-                    <div class="col-md-6 border-end">
-                        <div class="d-flex flex-column justify-content-center">
-                            <div class="main_image"> <img src="https://i.imgur.com/TAzli1U.jpg" id="main_product_image"
-                                    width="350"> </div>
-                            <div class="thumbnail_images">
-                                <ul id="thumbnail">
-                                    <li><img onclick="changeImage(this)" src="https://i.imgur.com/TAzli1U.jpg"
-                                            width="70"></li>
-                                    <li><img onclick="changeImage(this)" src="https://i.imgur.com/w6kEctd.jpg"
-                                            width="70"></li>
-                                    <li><img onclick="changeImage(this)" src="https://i.imgur.com/L7hFD8X.jpg"
-                                            width="70"></li>
-                                    <li><img onclick="changeImage(this)" src="https://i.imgur.com/6ZufmNS.jpg"
-                                            width="70"></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="p-3 right-side">
-                            <div class="d-flex justify-content-between align-items-center">
-                                <h3>IIlana</h3> <span class="heart"><i class='bx bx-heart'></i></span>
-                            </div>
-                            <div class="mt-2 pr-3 content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua</p>
-                            </div>
-                            <h3>$430.99</h3>
-                            <div class="ratings d-flex flex-row align-items-center">
-                                <div class="d-flex flex-row"> <i class='bx bxs-star'></i> <i class='bx bxs-star'></i> <i
-                                        class='bx bxs-star'></i> <i class='bx bxs-star'></i> <i class='bx bx-star'></i>
-                                </div> <span>441 reviews</span>
-                            </div>
-                            <div class="mt-5"> <span class="fw-bold">Color</span>
-                                <div class="colors">
-                                    <ul id="marker">
-                                        <li id="marker-1"></li>
-                                        <li id="marker-2"></li>
-                                        <li id="marker-3"></li>
-                                        <li id="marker-4"></li>
-                                        <li id="marker-5"></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="buttons d-flex flex-row mt-5 gap-3"> <button class="btn btn-outline-dark">Buy
-                                    Now</button> <button class="btn btn-dark">Add to Basket</button> </div>
-                            <div class="search-option"> <i class='bx bx-search-alt-2 first-search'></i>
-                                <div class="inputs"> <input type="text" name=""> </div> <i
-                                    class='bx bx-share-alt share'></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="container-fluid mt-2 mb-3">
-            <div class="row no-gutters">
-                <div class="col-12">
-                    <div class="card mt-2"> <span>Other Products:</span>
-                        <div class="similar-products mt-2 d-flex flex-row">
-                            <div class="card border p-1" style="width: 9rem;margin-right: 3px;"> <img
-                                    src="https://i.imgur.com/KZpuufK.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h6 class="card-title">ngalan</h6>
-                                </div>
-                            </div>
-                            <div class="card border p-1" style="width: 9rem;margin-right: 3px;"> <img
-                                    src="https://i.imgur.com/GwiUmQA.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h6 class="card-title">ngalan</h6>
-                                </div>
-                            </div>
-                            <div class="card border p-1" style="width: 9rem;margin-right: 3px;"> <img
-                                    src="https://i.imgur.com/c9uUysL.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h6 class="card-title">ngalan</h6>
-                                </div>
-                            </div>
-                            <div class="card border p-1" style="width: 9rem;margin-right: 3px;"> <img
-                                    src="https://i.imgur.com/kYWqL7k.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h6 class="card-title">ngalan</h6>
-                                </div>
-                            </div>
-                            <div class="card border p-1" style="width: 9rem;"> <img
-                                    src="https://i.imgur.com/DhKkTrG.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h6 class="card-title">ngalan</h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- ======= Team Section ======= -->
+        
+        <!-- ======= Team Section ======= -
         <section id="team" class="team section-bg">
             <div class="container" data-aos="fade-up">
 
@@ -685,9 +585,9 @@
                 </div>
 
             </div>
-        </section><!-- End Team Section -->
+        </section> End Team Section -->
 
-        <!-- ======= Pricing Section ======= -->
+        <!-- ======= Pricing Section ======= 
         <section id="pricing" class="pricing">
             <div class="container" data-aos="fade-up">
 
@@ -749,7 +649,7 @@
                 </div>
 
             </div>
-        </section><!-- End Pricing Section -->
+        </section> End Pricing Section -->
 
         <!-- ======= Frequently Asked Questions Section ======= -->
         <section id="faq" class="faq section-bg">
