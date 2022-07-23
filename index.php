@@ -96,7 +96,7 @@
                     <div class="d-flex justify-content-center justify-content-lg-start">
                         <a href="#about" class="btn-get-started scrollto">Get Started</a>
                        
-                        <a href="https://fb.watch/eqg2dNF_tC/" class="glightbox btn-watch-video"><i
+                        <a href="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FCDFIMPORTS%2Fvideos%2F336756665166551%2F&show_text=false&width=560&t=" class="glightbox btn-watch-video"><i
                                 class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
                     </div>
                 </div>
@@ -657,9 +657,7 @@
 
                 <div class="section-title">
                     <h2>Frequently Asked Questions</h2>
-                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit
-                        sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias
-                        ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                    <p>Got a question?. We're here to answer! If you don't see your question here, drop us a line on our contact us page down below</p>
                 </div>
 
                 <div class="faq-list">
@@ -749,9 +747,8 @@
 
                 <div class="section-title">
                     <h2>Contact</h2>
-                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit
-                        sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias
-                        ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                    <p>If you have any questions or queries we will be happy to help. Feel free to contact us by our email
+                         form down below or telephone number and we will be sure to get back to you as soon as possible </p>
                 </div>
 
                 <div class="row">
@@ -875,7 +872,7 @@
                     
                     <div class="col-lg-3 col-md-6 footer-links">
                         <h4>Our Social Networks</h4>
-                        <p>Vist our social media to learn more about us!</p>
+                        <p>Visit our social media to learn more about us!</p>
                         <div class="social-links mt-3">
                             <!--
                             <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>

@@ -10,8 +10,8 @@
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon">
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="assets/img/cdf_logo-removebg-preview.png" rel="icon">
+    <link href="assets/img/cdf_logo-removebg-preview.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
     <link
@@ -201,9 +201,8 @@
 
             <div class="section-title">
                 <h2>Contact</h2>
-                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit
-                    sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias
-                    ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                <p>If you have any questions or queries we will be happy to help. Feel free to contact us by our email
+                         form down below or telephone number and we will be sure to get back to you as soon as possible </p>
             </div>
 
             <div class="row">
@@ -325,7 +324,7 @@
                     
                     <div class="col-lg-3 col-md-6 footer-links">
                         <h4>Our Social Networks</h4>
-                        <p>Vist our social media to learn more about us!</p>
+                        <p>Visit our social media to learn more about us!</p>
                         <div class="social-links mt-3">
                             <!--
                             <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
