@@ -82,27 +82,95 @@
         </div>
     </header><!-- End Header -->
 
+    <?php
+        if(empty($_GET['product'])){
+            echo "<script> window.location.href = 'product.php?product=p1' </script>";
+        }
+        $other_product_info=[
+            'n1'=>'Boneless Dilis','p1'=>'boneless-dilis(m)1',
+            'n2'=>'Dangit Boneless','p2'=>'dangit-boneless(L)1',
+            'n3'=>'Dilis','p3'=>'dilis(m)1',
+            'n4'=>'Pusit','p4'=>'pusit(s)1',
+            'n5'=>'Tuyo','p5'=>'tuyo1',
+            'n6'=>'Sapsap','p6'=>'sapsap1',
+            'n7'=>'Pusit Ballpen','p7'=>'pusit-ballpen(m)1',
+            'n8'=>'Srimp','p8'=>'shrimp',
+        ];
+
+        $product = $_GET['product'];
+        if($product=='p1'){
+            $productinfo = ['name'=>'Boneless Dilis',
+                'info'=>'baklsdljsadjfbakshjdgbfkjhabwekfyihbawebfwefbuh'
+            ];
+            $productpic = ['boneless-dilis(m)1','boneless-dilis(m)2','boneless-dilis(m)3','boneless-dilis(m)4'];
+        }
+        if($product=='p2'){
+            $productinfo = ['name'=>'Dangit Boneless',
+                'info'=>'baklsdljsadjfbakshjdgbfkjhabwekfyihbawebfwefbuh'
+            ];
+            $productpic = ['dangit-boneless(L)1','dangit-boneless(m)1','dangit-boneless(s)1','dangit-boneless(s&m)1'];
+        }
+        if($product=='p3'){
+            $productinfo = ['name'=>'Dilis',
+                'info'=>'baklsdljsadjfbakshjdgbfkjhabwekfyihbawebfwefbuh'
+            ];
+            $productpic = ['dilis(m)1','dilis(m)2','dilis(m)4','dilis(s)1'];
+        }
+        if($product=='p4'){
+            $productinfo = ['name'=>'Pusit',
+                'info'=>'baklsdljsadjfbakshjdgbfkjhabwekfyihbawebfwefbuh'
+            ];
+            $productpic = ['pusit(s)1','pusit(s)3','pusit(s)6','pusit(s)8'];
+        }
+        if($product=='p5'){
+            $productinfo = ['name'=>'Tuyo',
+                'info'=>'baklsdljsadjfbakshjdgbfkjhabwekfyihbawebfwefbuh'
+            ];
+            $productpic = ['tuyo1','tuyo2','tuyo3'];
+        }
+        if($product=='p6'){
+            $productinfo = ['name'=>'Sapsap',
+                'info'=>'baklsdljsadjfbakshjdgbfkjhabwekfyihbawebfwefbuh'
+            ];
+            $productpic = ['sapsap1','sapsap2','sapsap4'];
+        }
+        if($product=='p7'){
+            $productinfo = ['name'=>'Pusit Ballpen',
+                'info'=>'baklsdljsadjfbakshjdgbfkjhabwekfyihbawebfwefbuh'
+            ];
+            $productpic = ['pusit-ballpen(m)1','pusit-ballpen(m)2'];
+        }
+        if($product=='p8'){
+            $productinfo = ['name'=>'Srimp',
+                'info'=>'baklsdljsadjfbakshjdgbfkjhabwekfyihbawebfwefbuh'
+            ];
+            $productpic = ['shrimp','shrimp1'];
+        }
+        
+    ?>
+
     <main id="product">
-
         <section class="p-4"></section>
-
         <div class="container mt-5 mb-5" data-aos="fade-up">
             <div class="card">
                 <div class="row g-0">
                     <div class="col-md-6 border-end">
                         <div class="d-flex flex-column justify-content-center">
-                            <div class="main_image"> <img src="https://i.imgur.com/TAzli1U.jpg" id="main_product_image"
-                                    width="350"> </div>
+                            <div class="main_image">
+                                <?php
+                                    echo '<img src="assets/img/products/'.$productpic[0].'.jpg" id="main_product_image"
+                                        width="350">'
+
+                                ?>
+                            </div>
                             <div class="thumbnail_images">
                                 <ul id="thumbnail">
-                                    <li><img onclick="changeImage(this)" src="https://i.imgur.com/TAzli1U.jpg"
-                                            width="70"></li>
-                                    <li><img onclick="changeImage(this)" src="https://i.imgur.com/w6kEctd.jpg"
-                                            width="70"></li>
-                                    <li><img onclick="changeImage(this)" src="https://i.imgur.com/L7hFD8X.jpg"
-                                            width="70"></li>
-                                    <li><img onclick="changeImage(this)" src="https://i.imgur.com/6ZufmNS.jpg"
-                                            width="70"></li>
+                                    <?php
+                                        foreach ($productpic as $value) {
+                                            echo '<li><img onclick="changeImage(this)" src="assets/img/products/'.$value.'.jpg"
+                                            width="70"></li>';
+                                        }
+                                    ?>
                                 </ul>
                             </div>
                         </div>
@@ -110,15 +178,10 @@
                     <div class="col-md-6">
                         <div class="p-3 right-side mt-2">
                             <div class="d-flex justify-content-between align-items-center">
-                                <h3>IIlana</h3>
+                                <h3><?php echo $productinfo['name']; ?></h3>
                             </div>
                             <div class="mt-2 pr-3 content">
-                                <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua, Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua, Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua</h6>
+                                <h6><?php echo $productinfo['info']; ?></h6>
                             </div>
                             <!--h3>$430.99</h3>
                             <div class="ratings d-flex flex-row align-items-center">
@@ -137,8 +200,8 @@
                                     </ul>
                                 </div>
                             </div-->
-                            <div class="buttons d-flex flex-row mt-5 gap-3"> 
-                                <button class="btn btn-inquire">Inquire</button> 
+                            <div class="buttons d-flex flex-row mt-5 gap-3">
+                                <button class="btn btn-inquire">Inquire</button>
                             </div>
 
                             <!--
@@ -152,40 +215,93 @@
                 </div>
             </div>
 
-            <div class="container-fluid mt-4 mb-4" data-aos="fade-up">
+            <div class="mt-4 mb-4" data-aos="fade-up">
                 <div class="card p-4">
-                    <h4>Other Products:</h4>
+                    <h4>Other Products</h4>
                     <div class="row no-gutters similar-products d-flex flex-row">
-                        <div class="card border p-1 m-2" style="width: 9rem;margin-right: 3px;"> <img
-                                src="https://i.imgur.com/KZpuufK.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h6 class="card-title">ngalan</h6>
-                            </div>
-                        </div>
-                        <div class="card border p-1 m-2" style="width: 9rem;margin-right: 3px;"> <img
-                                src="https://i.imgur.com/GwiUmQA.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h6 class="card-title">ngalan</h6>
-                            </div>
-                        </div>
-                        <div class="card border p-1 m-2" style="width: 9rem;margin-right: 3px;"> <img
-                                src="https://i.imgur.com/c9uUysL.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h6 class="card-title">ngalan</h6>
-                            </div>
-                        </div>
-                        <div class="card border p-1 m-2" style="width: 9rem;margin-right: 3px;"> <img
-                                src="https://i.imgur.com/kYWqL7k.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h6 class="card-title">ngalan</h6>
-                            </div>
-                        </div>
-                        <div class="card border p-1 m-2" style="width: 9rem;"> <img
-                                src="https://i.imgur.com/DhKkTrG.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h6 class="card-title">ngalan</h6>
-                            </div>
-                        </div>
+                        <?php
+                            if ($product!="p1"){
+                                echo    '<a href="product.php?product=p1" class="col-3 p-2">
+                                            <div class="card border p-1 m-2" style="width: 9rem;margin-right: 3px;"> 
+                                                <img src="assets/img/products/'.$other_product_info['p1'].'.jpg" class="card-img-top" alt="...">
+                                                <div class="card-body">
+                                                    <h6 class="card-title link-dark">'.$other_product_info['n1'].'</h6>
+                                                </div>
+                                            </div>
+                                        </a>';
+                                }
+                            if ($product!="p2"){
+                                echo    '<a href="product.php?product=p2" class="col-3 p-2">
+                                            <div class="card border p-1 m-2" style="width: 9rem;margin-right: 3px;"> 
+                                                <img src="assets/img/products/'.$other_product_info['p2'].'.jpg" class="card-img-top" alt="...">
+                                                <div class="card-body">
+                                                    <h6 class="card-title link-dark">'.$other_product_info['n2'].'</h6>
+                                                </div>
+                                            </div>
+                                        </a>';
+                                }
+                            if ($product!="p3"){
+                                echo    '<a href="product.php?product=p3" class="col-3 p-2">
+                                            <div class="card border p-1 m-2" style="width: 9rem;margin-right: 3px;"> 
+                                                <img src="assets/img/products/'.$other_product_info['p3'].'.jpg" class="card-img-top" alt="...">
+                                                <div class="card-body">
+                                                    <h6 class="card-title link-dark">'.$other_product_info['n3'].'</h6>
+                                                </div>
+                                            </div>
+                                        </a>';
+                                }
+                            if ($product!="p4"){
+                                echo    '<a href="product.php?product=p4" class="col-3 p-2">
+                                            <div class="card border p-1 m-2" style="width: 9rem;margin-right: 3px;"> 
+                                                <img src="assets/img/products/'.$other_product_info['p4'].'.jpg" class="card-img-top" alt="...">
+                                                <div class="card-body">
+                                                    <h6 class="card-title link-dark">'.$other_product_info['n4'].'</h6>
+                                                </div>
+                                            </div>
+                                        </a>';
+                                }
+                            if ($product!="p5"){
+                                echo    '<a href="product.php?product=p5" class="col-3 p-2">
+                                            <div class="card border p-1 m-2" style="width: 9rem;margin-right: 3px;"> 
+                                                <img src="assets/img/products/'.$other_product_info['p5'].'.jpg" class="card-img-top" alt="...">
+                                                <div class="card-body">
+                                                    <h6 class="card-title link-dark">'.$other_product_info['n5'].'</h6>
+                                                </div>
+                                            </div>
+                                        </a>';
+                                }
+                            if ($product!="p6"){
+                                echo    '<a href="product.php?product=p6" class="col-3 p-2">
+                                            <div class="card border p-1 m-2" style="width: 9rem;margin-right: 3px;"> 
+                                                <img src="assets/img/products/'.$other_product_info['p6'].'.jpg" class="card-img-top" alt="...">
+                                                <div class="card-body">
+                                                    <h6 class="card-title link-dark">'.$other_product_info['n6'].'</h6>
+                                                </div>
+                                            </div>
+                                        </a>';
+                                }
+                            if ($product!="p7"){
+                                echo    '<a href="product.php?product=p7" class="col-3 p-2">
+                                            <div class="card border p-1 m-2" style="width: 9rem;margin-right: 3px;"> 
+                                                <img src="assets/img/products/'.$other_product_info['p7'].'.jpg" class="card-img-top" alt="...">
+                                                <div class="card-body">
+                                                    <h6 class="card-title link-dark">'.$other_product_info['n7'].'</h6>
+                                                </div>
+                                            </div>
+                                        </a>';
+                                }
+                            if ($product!="p8"){
+                                echo    '<a href="product.php?product=p8" class="col-3 p-2">
+                                            <div class="card border p-1 m-2" style="width: 9rem;margin-right: 3px;"> 
+                                                <img src="assets/img/products/'.$other_product_info['p8'].'.jpg" class="card-img-top" alt="...">
+                                                <div class="card-body">
+                                                    <h6 class="card-title link-dark">'.$other_product_info['n8'].'</h6>
+                                                </div>
+                                            </div>
+                                        </a>';
+                                }
+                        ?>
+
                     </div>
                 </div>
             </div>
@@ -202,7 +318,7 @@
             <div class="section-title">
                 <h2>Contact</h2>
                 <p>If you have any questions or queries we will be happy to help. Feel free to contact us by our email
-                         form down below or telephone number and we will be sure to get back to you as soon as possible </p>
+                    form down below or telephone number and we will be sure to get back to you as soon as possible </p>
             </div>
 
             <div class="row">
@@ -268,9 +384,9 @@
         </div>
     </section><!-- End Contact Section -->
 
-     <!-- ======= Footer ======= -->
-     <footer id="footer">
-<!--
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+        <!--
         <div class="footer-newsletter">
             <div class="container">
                 <div class="row justify-content-center">
@@ -292,8 +408,8 @@
                     <div class="col-lg-3 col-md-6 footer-contact">
                         <h3>CDF TRADING</h3>
                         <p>
-                        Bay-2 12127 44th Street <br>
-                        SE, Calgary, AB T2Z4H3<br>
+                            Bay-2 12127 44th Street <br>
+                            SE, Calgary, AB T2Z4H3<br>
                             <br><br>
                             <strong>Phone:</strong> (825) 540-7207<br>
                             <strong>Email:</strong> info@cdftradinginc.com<br>
@@ -309,7 +425,7 @@
                             <li><i class="bx bx-chevron-right"></i> <a href="product.php">Products</a></li>
                         </ul>
                     </div>
-                   
+
                     <!--
                     <div class="col-lg-3 col-md-6 footer-links">
                         <h4>Our Services</h4>
@@ -321,7 +437,7 @@
                             <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
                         </ul>
                     </div> -->
-                    
+
                     <div class="col-lg-3 col-md-6 footer-links">
                         <h4>Our Social Networks</h4>
                         <p>Visit our social media to learn more about us!</p>
@@ -329,7 +445,8 @@
                             <!--
                             <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
                             -->
-                            <a href="https://www.facebook.com/CDFIMPORTS/?ref=pages_you_manage" class="facebook"><i class="bx bxl-facebook"></i></a>
+                            <a href="https://www.facebook.com/CDFIMPORTS/?ref=pages_you_manage" class="facebook"><i
+                                    class="bx bxl-facebook"></i></a>
                             <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
                             <!--
                             <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>

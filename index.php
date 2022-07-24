@@ -88,7 +88,7 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"
+                <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pb-4 pt-lg-0 order-2 order-lg-1"
                     data-aos="fade-up" data-aos-delay="200">
                     <h1>Welcome to CDF Trading</h1>
                     <h2>We are selling dried fish products and fresh products coming soon! Product of the Philippines
@@ -101,7 +101,8 @@
                     </div>
                 </div>
                 <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
-                    <img src="assets/img/image1.png" class="img-fluid animated" alt="">
+                    <img class="img-fluid animated" src="assets/img/image1.png" id="image-changing" alt="" class="object" data-value="-10">
+                    <!-- <img src="assets/img/image1.png" class="img-fluid animated" alt=""> -->
                 </div>
                     
             </div>
@@ -914,6 +915,9 @@
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
+
+    <!-- Custom JS -->
+    <script src="assets/js/custom.js"></script>
 
     <!-- Product function -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
