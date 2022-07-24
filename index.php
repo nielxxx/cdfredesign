@@ -329,9 +329,7 @@
 
                 <div class="section-title">
                     <h2>How it works</h2>
-                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit
-                        sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias
-                        ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                    <p>See the steps down below on how our business work </p>
                 </div>
 
                 <div class="row">
@@ -339,7 +337,7 @@
                         <div class="icon-box">
                             <div class="icon"><i class="bx bx-cart"></i></div>
                             <h4><a href="">Choose your order</a></h4>
-                            <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                            <p>In order to choose your order, first you visit the production of our website then you choose your desired.</p>
                         </div>
                     </div>
 
@@ -348,7 +346,7 @@
                         <div class="icon-box">
                             <div class="icon"><i class="bx bx-money"></i></div>
                             <h4><a href="">Pay the deposit</a></h4>
-                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+                            <p>After you contact us on our email down below you can now pay the deposit of your desired product on us.</p>
                         </div>
                     </div>
 
@@ -357,7 +355,7 @@
                         <div class="icon-box">
                             <div class="icon"><i class="bx bx-car"></i></div>
                             <h4><a href="">Wait for the delivery</a></h4>
-                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+                            <p>Get ready to receiv your product you order on us and enjoy!</p>
                         </div>
                     </div>
 
@@ -664,44 +662,40 @@
                     <ul>
                         <li data-aos="fade-up" data-aos-delay="100">
                             <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse"
-                                data-bs-target="#faq-list-1">Non consectetur a erat nam at lectus urna duis? <i
+                                data-bs-target="#faq-list-1">What are we selling? <i
                                     class="bx bx-chevron-down icon-show"></i><i
                                     class="bx bx-chevron-up icon-close"></i></a>
                             <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
                                 <p>
-                                    Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet
-                                    non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor
-                                    purus non.
+                                We are selling fresh dried fish products and more , you can see all of the products on the product section on the top section of the website. All products made in Philippines.
                                 </p>
                             </div>
                         </li>
 
                         <li data-aos="fade-up" data-aos-delay="200">
                             <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse"
-                                data-bs-target="#faq-list-2" class="collapsed">Feugiat scelerisque varius morbi enim
-                                nunc? <i class="bx bx-chevron-down icon-show"></i><i
+                                data-bs-target="#faq-list-2" class="collapsed">What is CDF TRADING? <i class="bx bx-chevron-down icon-show"></i><i
                                     class="bx bx-chevron-up icon-close"></i></a>
                             <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
                                 <p>
-                                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum
-                                    velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend
-                                    donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in
-                                    cursus turpis massa tincidunt dui.
+                                Starting as a small business in Calgary, Alberta, Canada of November 
+                                2020, we have big dreams. Our passion for DRIED FISH PRODUCTS, means 
+                                that we provide our customers with nothing but the highest quality of 
+                                products, that are guaranteed to meet their needs and keep them satisfied!
+                                 With a motivated team, we strive to be the creative minds that bring a 
+                                 smile to your face. That’s why we’re always looking for innovative new 
+                                 ways to get the best to you.
                                 </p>
                             </div>
                         </li>
 
                         <li data-aos="fade-up" data-aos-delay="300">
                             <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse"
-                                data-bs-target="#faq-list-3" class="collapsed">Dolor sit amet consectetur adipiscing
-                                elit? <i class="bx bx-chevron-down icon-show"></i><i
+                                data-bs-target="#faq-list-3" class="collapsed">How can we order? <i class="bx bx-chevron-down icon-show"></i><i
                                     class="bx bx-chevron-up icon-close"></i></a>
                             <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
                                 <p>
-                                    Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus
-                                    pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit.
-                                    Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis
-                                    tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+                                    You can order by reaching us on our email , please see the contact form down below.
                                 </p>
                             </div>
                         </li>
