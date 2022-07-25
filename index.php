@@ -30,24 +30,16 @@
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
 
-
-    <!-- new added -->
+    <!-- New Added -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="assets\css\style2.css">
-    
-
 </head>
 
 <body>
-
-    <!-- ======= Header ======= -->
+    <!-- Header-->
     <header id="header" class="fixed-top ">
         <div class="container d-flex align-items-center">
-
             <h1 class="logo me-auto"><a href="index.php">CDF TRADING</a></h1>
-            <!-- Uncomment below if you prefer to use an image logo -->
-            <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-
             <nav id="navbar" class="navbar">
                 <ul>
                     <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
@@ -58,14 +50,13 @@
                     <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
-            </nav><!-- .navbar -->
+            </nav>
 
         </div>
-    </header><!-- End Header -->
+    </header>
 
-    <!-- ======= Hero Section ======= -->
+    <!-- Banner -->
     <section id="hero" class="d-flex align-items-center">
-
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pb-4 pt-lg-0 order-2 order-lg-1"
@@ -75,74 +66,37 @@
                     </h2>
                     <div class="d-flex justify-content-center justify-content-lg-start">
                         <a href="#about" class="btn-get-started scrollto">Get Started</a>
-                       
-                        <a href="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FCDFIMPORTS%2Fvideos%2F336756665166551%2F&show_text=false&width=560&t=" class="glightbox btn-watch-video"><i
-                                class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
+
+                        <a href="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FCDFIMPORTS%2Fvideos%2F336756665166551%2F&show_text=false&width=560&t="
+                            class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch
+                                Video</span></a> -->
                     </div>
                 </div>
                 <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
-                    <img class="img-fluid animated" src="assets/img/image1.png" id="image-changing" alt="" class="object" data-value="-10">
-                    <!-- <img src="assets/img/image1.png" class="img-fluid animated" alt=""> -->
+                    <img class="img-fluid animated" src="assets/img/image1.png" id="image-changing" alt=""
+                        class="object" data-value="-10">
                 </div>
-                    
             </div>
         </div>
-
-    </section><!-- End Hero -->
+    </section>
 
     <main id="main">
 
-        <!-- ======= Clients Section ======= 
-        <section id="clients" class="clients section-bg">
-            <div class="container">
-
-                <div class="row" data-aos="zoom-in">
-
-                    <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                        <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
-                    </div>
-
-                    <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                        <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
-                    </div>
-
-                    <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                        <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
-                    </div>
-
-                    <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                        <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
-                    </div>
-
-                    <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                        <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
-                    </div>
-
-                    <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                        <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
-                    </div>
-
-                </div>
-
-            </div>
-        </section>< End Cliens Section -->
-
-        <!-- ======= About Us Section ======= -->
+        <!-- About -->
         <section id="about" class="about">
             <div class="container" data-aos="fade-up">
-
                 <div class="section-title">
                     <h2>About Us</h2>
                 </div>
-
                 <div class="row content">
                     <div class="col-lg-6">
                         <p>
-                            <h6>Welcome to CDF TRADING!. Starting as a small business in Calgary, Alberta, Canada of
+                        <h6>Welcome to CDF TRADING!. Starting as a small business in Calgary, Alberta, Canada of
                             November 2020, we have big dreams.
                             Our passion for DRIED FISH PRODUCTS, means that we provide our customers with nothing but
                             the highest quality of products,
-                            that are guaranteed to meet their needs and keep them satisfied! With a motivated team. </h6>
+                            that are guaranteed to meet their needs and keep them satisfied! With a motivated team.
+                        </h6>
                         </p>
                         <ul>
                             <li><i class="ri-check-double-line"></i> Our Mission is to help small fisherman and their
@@ -157,7 +111,7 @@
                     </div>
                     <div class="col-lg-6 pt-4 pt-lg-0">
                         <p>
-                            <h6>We strive to be the creative minds
+                        <h6>We strive to be the creative minds
                             that bring a smile to your face. That’s why we’re always looking for innovative new ways to
                             get the best to you. </h6>
                         </p>
@@ -165,19 +119,15 @@
                             More</a>
                     </div>
                 </div>
-
             </div>
-        </section><!-- End About Us Section -->
+        </section>
 
-        <!-- ======= Why Us Section ======= -->
+        <!-- Why Us -->
         <section id="why-us" class="why-us section-bg">
             <div class="container-fluid" data-aos="fade-up">
-
                 <div class="row">
-
                     <div
                         class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
-
                         <div class="content">
                             <h3>Eum ipsam laborum deleniti <strong>velit pariatur architecto aut nihil</strong></h3>
                             <p>
@@ -185,7 +135,6 @@
                                 incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
                             </p>
                         </div>
-
                         <div class="accordion-list">
                             <ul>
                                 <li>
@@ -201,7 +150,6 @@
                                         </p>
                                     </div>
                                 </li>
-
                                 <li>
                                     <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2"
                                         class="collapsed"><span>02</span> Feugiat scelerisque varius morbi enim nunc? <i
@@ -216,7 +164,6 @@
                                         </p>
                                     </div>
                                 </li>
-
                                 <li>
                                     <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3"
                                         class="collapsed"><span>03</span> Dolor sit amet consectetur adipiscing elit? <i
@@ -232,79 +179,17 @@
                                         </p>
                                     </div>
                                 </li>
-
                             </ul>
                         </div>
-
                     </div>
-
                     <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img"
                         style='background-image: url("assets/img/cdf_logo-removebg-preview.png");' data-aos="zoom-in"
                         data-aos-delay="150">&nbsp;</div>
                 </div>
-
             </div>
-        </section><!-- End Why Us Section -->
+        </section>
 
-        <!-- ======= Skills Section ======= 
-        <section id="skills" class="skills">
-            <div class="container" data-aos="fade-up">
-
-                <div class="row">
-                    <div class="col-lg-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
-                        <img src="assets/img/skills.png" class="img-fluid" alt="">
-                    </div>
-                    <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
-                        <h3>Voluptatem dignissimos provident quasi corporis voluptates</h3>
-                        <p class="fst-italic">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore
-                            magna aliqua.
-                        </p>
-
-                        <div class="skills-content">
-
-                            <div class="progress">
-                                <span class="skill">HTML <i class="val">100%</i></span>
-                                <div class="progress-bar-wrap">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"
-                                        aria-valuemax="100"></div>
-                                </div>
-                            </div>
-
-                            <div class="progress">
-                                <span class="skill">CSS <i class="val">90%</i></span>
-                                <div class="progress-bar-wrap">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
-                                        aria-valuemax="100"></div>
-                                </div>
-                            </div>
-
-                            <div class="progress">
-                                <span class="skill">JavaScript <i class="val">75%</i></span>
-                                <div class="progress-bar-wrap">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0"
-                                        aria-valuemax="100"></div>
-                                </div>
-                            </div>
-
-                            <div class="progress">
-                                <span class="skill">Photoshop <i class="val">55%</i></span>
-                                <div class="progress-bar-wrap">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0"
-                                        aria-valuemax="100"></div>
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
-        </section> End Skills Section -->
-
-        <!-- ======= Services Section ======= -->
+        <!-- Services -->
         <section id="services" class="services section-bg">
             <div class="container" data-aos="fade-up">
 
@@ -312,335 +197,61 @@
                     <h2>How it works</h2>
                     <p>See the steps down below on how our business work </p>
                 </div>
-
                 <div class="row">
-
-                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 d-flex align-items-stretch mt-4" data-aos="zoom-in" 
-                    data-aos-delay="100">
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 d-flex align-items-stretch mt-4"
+                        data-aos="zoom-in" data-aos-delay="100">
                         <div class="icon-box">
                             <div class="icon"><i class="bx bx-cart"></i></div>
                             <h4><a href="">Choose your order</a></h4>
-                            <p>In order to choose your order, first you visit the product of our website then you choose your desired.</p>
+                            <p>In order to choose your order, first you visit the product of our website then you choose
+                                your desired.</p>
                         </div>
                     </div>
-
-                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 d-flex align-items-stretch mt-4" data-aos="zoom-in"
-                        data-aos-delay="200">
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 d-flex align-items-stretch mt-4"
+                        data-aos="zoom-in" data-aos-delay="200">
                         <div class="icon-box">
                             <div class="icon"><i class="bx bx-money"></i></div>
                             <h4><a href="">Pay the deposit</a></h4>
-                            <p>After you contact us on our email down below you can now pay the deposit of your desired product on us.</p>
+                            <p>After you contact us on our email down below you can now pay the deposit of your desired
+                                product on us.</p>
                         </div>
                     </div>
-
-                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 d-flex align-items-stretch mt-4" data-aos="zoom-in"
-                        data-aos-delay="300">
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 d-flex align-items-stretch mt-4"
+                        data-aos="zoom-in" data-aos-delay="300">
                         <div class="icon-box">
                             <div class="icon"><i class="bx bx-car"></i></div>
                             <h4><a href="">Wait for the delivery</a></h4>
                             <p>Get ready to receive your product you order on us and enjoy!</p>
                         </div>
                     </div>
-
-
-
                 </div>
-
             </div>
-        </section><!-- End Services Section -->
+        </section>
 
-        <!-- ======= Cta Section ======= -->
+        <!-- Contact Banner -->
         <section id="cta" class="cta">
             <div class="container" data-aos="zoom-in">
-
                 <div class="row">
                     <div class="col-lg-9 text-center text-lg-start">
                         <h3>Contact Us</h3>
-                        <p> Ready to order dried fish and other product on us? Feel free to reach us by sending us your concerns and questions.</p>
+                        <p> Ready to order dried fish and other product on us? Feel free to reach us by sending us your
+                            concerns and questions.</p>
                     </div>
                     <div class="col-lg-3 cta-btn-container text-center">
                         <a class="cta-btn align-middle" href="#contact">Call To Action</a>
                     </div>
                 </div>
-
             </div>
-        </section><!-- End Cta Section -->
+        </section>
 
-        <!-- ======= Portfolio Section
-    <section id="portfolio" class="portfolio">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Portfolio</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
-
-        <ul id="portfolio-flters" class="d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
-          <li data-filter="*" class="filter-active">All</li>
-          <li data-filter=".filter-app">App</li>
-          <li data-filter=".filter-card">Card</li>
-          <li data-filter=".filter-web">Web</li>
-        </ul>
-
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>App 1</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>App 2</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Card 2</h4>
-              <p>Card</p>
-              <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Web 2</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>App 3</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Card 1</h4>
-              <p>Card</p>
-              <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Card 3</h4>
-              <p>Card</p>
-              <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section> End Portfolio Section -->
-
-
-
-        
-        <!-- ======= Team Section ======= -
-        <section id="team" class="team section-bg">
-            <div class="container" data-aos="fade-up">
-
-                <div class="section-title">
-                    <h2>Team</h2>
-                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit
-                        sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias
-                        ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-                </div>
-
-                <div class="row">
-
-                    <div class="col-lg-6">
-                        <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
-                            <div class="pic"><img src="assets/img/team/team-1.jpg" class="img-fluid" alt=""></div>
-                            <div class="member-info">
-                                <h4>Walter White</h4>
-                                <span>Chief Executive Officer</span>
-                                <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
-                                <div class="social">
-                                    <a href=""><i class="ri-twitter-fill"></i></a>
-                                    <a href=""><i class="ri-facebook-fill"></i></a>
-                                    <a href=""><i class="ri-instagram-fill"></i></a>
-                                    <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 mt-4 mt-lg-0">
-                        <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="200">
-                            <div class="pic"><img src="assets/img/team/team-2.jpg" class="img-fluid" alt=""></div>
-                            <div class="member-info">
-                                <h4>Sarah Jhonson</h4>
-                                <span>Product Manager</span>
-                                <p>Aut maiores voluptates amet et quis praesentium qui senda para</p>
-                                <div class="social">
-                                    <a href=""><i class="ri-twitter-fill"></i></a>
-                                    <a href=""><i class="ri-facebook-fill"></i></a>
-                                    <a href=""><i class="ri-instagram-fill"></i></a>
-                                    <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 mt-4">
-                        <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="300">
-                            <div class="pic"><img src="assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
-                            <div class="member-info">
-                                <h4>William Anderson</h4>
-                                <span>CTO</span>
-                                <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
-                                <div class="social">
-                                    <a href=""><i class="ri-twitter-fill"></i></a>
-                                    <a href=""><i class="ri-facebook-fill"></i></a>
-                                    <a href=""><i class="ri-instagram-fill"></i></a>
-                                    <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 mt-4">
-                        <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
-                            <div class="pic"><img src="assets/img/team/team-4.jpg" class="img-fluid" alt=""></div>
-                            <div class="member-info">
-                                <h4>Amanda Jepson</h4>
-                                <span>Accountant</span>
-                                <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
-                                <div class="social">
-                                    <a href=""><i class="ri-twitter-fill"></i></a>
-                                    <a href=""><i class="ri-facebook-fill"></i></a>
-                                    <a href=""><i class="ri-instagram-fill"></i></a>
-                                    <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-        </section> End Team Section -->
-
-        <!-- ======= Pricing Section ======= 
-        <section id="pricing" class="pricing">
-            <div class="container" data-aos="fade-up">
-
-                <div class="section-title">
-                    <h2>Pricing</h2>
-                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit
-                        sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias
-                        ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-                </div>
-
-                <div class="row">
-
-                    <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-                        <div class="box">
-                            <h3>Free Plan</h3>
-                            <h4><sup>$</sup>0<span>per month</span></h4>
-                            <ul>
-                                <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
-                                <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
-                                <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
-                                <li class="na"><i class="bx bx-x"></i> <span>Pharetra massa massa ultricies</span></li>
-                                <li class="na"><i class="bx bx-x"></i> <span>Massa ultricies mi quis hendrerit</span>
-                                </li>
-                            </ul>
-                            <a href="#" class="buy-btn">Get Started</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="200">
-                        <div class="box featured">
-                            <h3>Business Plan</h3>
-                            <h4><sup>$</sup>29<span>per month</span></h4>
-                            <ul>
-                                <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
-                                <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
-                                <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
-                                <li><i class="bx bx-check"></i> Pharetra massa massa ultricies</li>
-                                <li><i class="bx bx-check"></i> Massa ultricies mi quis hendrerit</li>
-                            </ul>
-                            <a href="#" class="buy-btn">Get Started</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
-                        <div class="box">
-                            <h3>Developer Plan</h3>
-                            <h4><sup>$</sup>49<span>per month</span></h4>
-                            <ul>
-                                <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
-                                <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
-                                <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
-                                <li><i class="bx bx-check"></i> Pharetra massa massa ultricies</li>
-                                <li><i class="bx bx-check"></i> Massa ultricies mi quis hendrerit</li>
-                            </ul>
-                            <a href="#" class="buy-btn">Get Started</a>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-        </section> End Pricing Section -->
-
-        <!-- ======= Frequently Asked Questions Section ======= -->
+        <!-- Questions -->
         <section id="faq" class="faq section-bg">
             <div class="container" data-aos="fade-up">
-
                 <div class="section-title">
                     <h2>Frequently Asked Questions</h2>
-                    <p>Got a question?. We're here to answer! If you don't see your question here, drop us a line on our contact us page down below</p>
+                    <p>Got a question?. We're here to answer! If you don't see your question here, drop us a line on our
+                        contact us page down below</p>
                 </div>
-
                 <div class="faq-list">
                     <ul>
                         <li data-aos="fade-up" data-aos-delay="100">
@@ -650,31 +261,33 @@
                                     class="bx bx-chevron-up icon-close"></i></a>
                             <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
                                 <p>
-                                We are selling fresh dried fish products and more , you can see all of the products on the product section on the top section of the website. All products made in Philippines.
+                                    We are selling fresh dried fish products and more , you can see all of the products
+                                    on the product section on the top section of the website. All products made in
+                                    Philippines.
                                 </p>
                             </div>
                         </li>
-
                         <li data-aos="fade-up" data-aos-delay="200">
                             <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse"
-                                data-bs-target="#faq-list-2" class="collapsed">What is CDF TRADING? <i class="bx bx-chevron-down icon-show"></i><i
+                                data-bs-target="#faq-list-2" class="collapsed">What is CDF TRADING? <i
+                                    class="bx bx-chevron-down icon-show"></i><i
                                     class="bx bx-chevron-up icon-close"></i></a>
                             <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
                                 <p>
-                                Starting as a small business in Calgary, Alberta, Canada of November 
-                                2020, we have big dreams. Our passion for DRIED FISH PRODUCTS, means 
-                                that we provide our customers with nothing but the highest quality of 
-                                products, that are guaranteed to meet their needs and keep them satisfied!
-                                 With a motivated team, we strive to be the creative minds that bring a 
-                                 smile to your face. That’s why we’re always looking for innovative new 
-                                 ways to get the best to you.
+                                    Starting as a small business in Calgary, Alberta, Canada of November
+                                    2020, we have big dreams. Our passion for DRIED FISH PRODUCTS, means
+                                    that we provide our customers with nothing but the highest quality of
+                                    products, that are guaranteed to meet their needs and keep them satisfied!
+                                    With a motivated team, we strive to be the creative minds that bring a
+                                    smile to your face. That’s why we’re always looking for innovative new
+                                    ways to get the best to you.
                                 </p>
                             </div>
                         </li>
-
                         <li data-aos="fade-up" data-aos-delay="300">
                             <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse"
-                                data-bs-target="#faq-list-3" class="collapsed">How can we order? <i class="bx bx-chevron-down icon-show"></i><i
+                                data-bs-target="#faq-list-3" class="collapsed">How can we order? <i
+                                    class="bx bx-chevron-down icon-show"></i><i
                                     class="bx bx-chevron-up icon-close"></i></a>
                             <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
                                 <p>
@@ -682,7 +295,6 @@
                                 </p>
                             </div>
                         </li>
-
                         <li data-aos="fade-up" data-aos-delay="400">
                             <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse"
                                 data-bs-target="#faq-list-4" class="collapsed">Tempus quam pellentesque nec nam aliquam
@@ -696,7 +308,6 @@
                                 </p>
                             </div>
                         </li>
-
                         <li data-aos="fade-up" data-aos-delay="500">
                             <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse"
                                 data-bs-target="#faq-list-5" class="collapsed">Tortor vitae purus faucibus ornare.
@@ -711,176 +322,77 @@
                                 </p>
                             </div>
                         </li>
-
                     </ul>
                 </div>
-
             </div>
-        </section><!-- End Frequently Asked Questions Section -->
+        </section>
+    </main>
 
-        <!-- ======= Contact Section ======= -->
-        <section id="contact" class="contact">
-            <div class="container" data-aos="fade-up">
-
-                <div class="section-title">
-                    <h2>Contact</h2>
-                    <p>If you have any questions or queries we will be happy to help. Feel free to contact us by our email
-                         form down below or telephone number and we will be sure to get back to you as soon as possible </p>
-                </div>
-
-                <div class="row">
-
-                    <div class="col-lg-5 d-flex align-items-stretch">
-                        <div class="info">
-                            <div class="address">
-                                <i class="bi bi-geo-alt"></i>
-                                <h4>Location:</h4>
-                                <p>Bay-2 12127 44th Street SE, Calgary, AB T2Z4H3</p>
-                            </div>
-
-                            <div class="email">
-                                <i class="bi bi-envelope"></i>
-                                <h4>Email:</h4>
-                                <p>info@cdftradinginc.com</p>
-                            </div>
-
-                            <div class="phone">
-                                <i class="bi bi-phone"></i>
-                                <h4>Call:</h4>
-                                <p>(825) 540-7207</p>
-                            </div>
-
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2514.0396657523575!2d-113.97385064850467!3d50.941479479445796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53717a19a9249117%3A0xcea2992710bff94b!2s44%20St%20SE%2C%20Calgary%2C%20AB%20T2Z%204H3%2C%20Canada!5e0!3m2!1sen!2sph!4v1658546413699!5m2!1sen!2sph"
-                                frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <div class="container" data-aos="fade-up">
+            <div class="section-title">
+                <h2>Contact</h2>
+                <p>If you have any questions or queries we will be happy to help. Feel free to contact us by our email
+                    form down below or telephone number and we will be sure to get back to you as soon as possible </p>
+            </div>
+            <div class="row">
+                <div class="col-lg-5 d-flex align-items-stretch">
+                    <div class="info">
+                        <div class="address">
+                            <i class="bi bi-geo-alt"></i>
+                            <h4>Location:</h4>
+                            <p>Bay-2 12127 44th Street SE, Calgary, AB T2Z4H3</p>
                         </div>
-
-                    </div>
-
-                    <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-                        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-                            <div class="row">
-                                <div class="form-group col-md-6">
-                                    <label for="name">Your Name</label>
-                                    <input type="text" name="name" class="form-control" id="name" required>
-                                </div>
-                                <div class="form-group col-md-6">
-                                    <label for="name">Your Email</label>
-                                    <input type="email" class="form-control" name="email" id="email" required>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label for="name">Subject</label>
-                                <input type="text" class="form-control" name="subject" id="subject" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="name">Message</label>
-                                <textarea class="form-control" name="message" rows="10" required></textarea>
-                            </div>
-                            <div class="my-3">
-                                <div class="loading">Loading</div>
-                                <div class="error-message"></div>
-                                <div class="sent-message">Your message has been sent. Thank you!</div>
-                            </div>
-                            <div class="text-center"><button type="submit">Send Message</button></div>
-                        </form>
-                    </div>
-
-                </div>
-
-            </div>
-        </section><!-- End Contact Section -->
-
-    </main><!-- End #main -->
-
-    <!-- ======= Footer ======= -->
-    <footer id="footer">
-<!--
-        <div class="footer-newsletter">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-6">
-                        <h4>Join Our Newsletter</h4>
-                        <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-                        <form action="" method="post">
-                            <input type="email" name="email"><input type="submit" value="Subscribe">
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
--->
-        <div class="footer-top">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-lg-3 col-md-6 footer-contact">
-                        <h3>CDF TRADING</h3>
-                        <p>
-                        Bay-2 12127 44th Street <br>
-                        SE, Calgary, AB T2Z4H3<br>
-                            <br><br>
-                            <strong>Phone:</strong> (825) 540-7207<br>
-                            <strong>Email:</strong> info@cdftradinginc.com<br>
-                        </p>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 footer-links">
-                        <h4>Useful Links</h4>
-                        <ul>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#hero">Home</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#services">Services</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="product.php">Products</a></li>
-                        </ul>
-                    </div>
-                   
-                    <!--
-                    <div class="col-lg-3 col-md-6 footer-links">
-                        <h4>Our Services</h4>
-                        <ul>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-                        </ul>
-                    </div> -->
-                    
-                    <div class="col-lg-3 col-md-6 footer-links">
-                        <h4>Our Social Networks</h4>
-                        <p>Visit our social media to learn more about us!</p>
-                        <div class="social-links mt-3">
-                            <!--
-                            <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                            -->
-                            <a href="https://www.facebook.com/CDFIMPORTS/?ref=pages_you_manage" class="facebook"><i class="bx bxl-facebook"></i></a>
-                            <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                            <!--
-                            <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                            <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-                            -->
-
+                        <div class="email">
+                            <i class="bi bi-envelope"></i>
+                            <h4>Email:</h4>
+                            <p>info@cdftradinginc.com</p>
                         </div>
+                        <div class="phone">
+                            <i class="bi bi-phone"></i>
+                            <h4>Call:</h4>
+                            <p>(825) 540-7207</p>
+                        </div>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2514.0396657523575!2d-113.97385064850467!3d50.941479479445796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53717a19a9249117%3A0xcea2992710bff94b!2s44%20St%20SE%2C%20Calgary%2C%20AB%20T2Z%204H3%2C%20Canada!5e0!3m2!1sen!2sph!4v1658546413699!5m2!1sen!2sph"
+                            frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
                     </div>
-
+                </div>
+                <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+                    <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <label for="name">Your Name</label>
+                                <input type="text" name="name" class="form-control" id="name" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="name">Your Email</label>
+                                <input type="email" class="form-control" name="email" id="email" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Subject</label>
+                            <input type="text" class="form-control" name="subject" id="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Message</label>
+                            <textarea class="form-control" name="message" rows="10" required></textarea>
+                        </div>
+                        <div class="my-3">
+                            <div class="loading">Loading</div>
+                            <div class="error-message"></div>
+                            <div class="sent-message">Your message has been sent. Thank you!</div>
+                        </div>
+                        <div class="text-center"><button type="submit">Send Message</button></div>
+                    </form>
                 </div>
             </div>
         </div>
+    </section>
 
-        <div class="container footer-bottom clearfix">
-            <div class="copyright">
-                &copy; CDF TRADING <strong><span></span></strong>. All Rights Reserved
-            </div>
-            <div class="credits">
-                <!-- All the links in the footer should remain intact. -->
-                <!-- You can delete the links only if you purchased the pro version. -->
-                <!-- Licensing information: https://bootstrapmade.com/license/ -->
-                <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/ -->
-                Designed by <a href="#">CDF WEB DEVELOPER/DESIGNER</a>
-            </div>
-        </div>
-    </footer><!-- End Footer -->
+    <!-- Footer -->
+    <?php include_once "footer.php"; ?>
 
     <div id="preloader"></div>
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
@@ -902,7 +414,8 @@
     <script src="assets/js/custom.js"></script>
 
     <!-- Product function -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script>
     function changeImage(element) {
         var main_prodcut_image = document.getElementById('main_product_image');

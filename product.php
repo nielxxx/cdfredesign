@@ -30,59 +30,29 @@
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
 
-
-    <!-- new added -->
+    <!-- New Added -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style2.css">
-
-
 </head>
 
 <body>
-
-    <!-- ======= Header ======= -->
+    <!-- Header -->
     <header id="header" class="fixed-top ">
         <div class="container d-flex align-items-center">
-
             <h1 class="logo me-auto"><a href="index.php">CDF TRADING</a></h1>
-            <!-- Uncomment below if you prefer to use an image logo -->
-            <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-
             <nav id="navbar" class="navbar">
                 <ul>
                     <li><a class="nav-link scrollto " href="index.php">Home</a></li>
                     <li><a class="nav-link scrollto" href="index#about">About</a></li>
                     <li><a class="nav-link scrollto" href="index#services">Services</a></li>
                     <li><a class="nav-link scrollto" href="product#product">Product</a></li>
-                    <!--
-                    <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-                        <ul>
-                            <li><a href="#">Drop Down 1</a></li>
-                            <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i
-                                        class="bi bi-chevron-right"></i></a>
-                                <ul>
-                                    <li><a href="#">Deep Drop Down 1</a></li>
-                                    <li><a href="#">Deep Drop Down 2</a></li>
-                                    <li><a href="#">Deep Drop Down 3</a></li>
-                                    <li><a href="#">Deep Drop Down 4</a></li>
-                                    <li><a href="#">Deep Drop Down 5</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#">Drop Down 2</a></li>
-                            <li><a href="#">Drop Down 3</a></li>
-                            <li><a href="#">Drop Down 4</a></li>
-                        </ul>
-                        -->
-                    </li>
                     <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
                     <li><a class="getstarted scrollto" href="index#about">Get Started</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
-            </nav><!-- .navbar -->
-
+            </nav>
         </div>
-    </header><!-- End Header -->
-
+    </header>
     <?php
         if(empty($_GET['product'])){
             echo "<script> window.location.href = 'product?product=p1' </script>";
@@ -147,9 +117,9 @@
             ];
             $productpic = ['shrimp','shrimp1'];
         }
-        
     ?>
 
+    <!-- Product -->
     <main id="product" class="product">
         <section class="p-4"></section>
         <div class="container mt-5 mb-5" data-aos="fade-up">
@@ -161,7 +131,6 @@
                                 <?php
                                     echo '<img src="assets/img/products/'.$productpic[0].'.jpg" id="main_product_image"
                                         width="350">'
-
                                 ?>
                             </div>
                             <div class="thumbnail_images">
@@ -184,33 +153,9 @@
                             <div class="mt-2 pr-3 content">
                                 <h6><?php echo $productinfo['info']; ?></h6>
                             </div>
-                            <!--h3>$430.99</h3>
-                            <div class="ratings d-flex flex-row align-items-center">
-                                <div class="d-flex flex-row"> <i class='bx bxs-star'></i> <i class='bx bxs-star'></i> <i
-                                        class='bx bxs-star'></i> <i class='bx bxs-star'></i> <i class='bx bx-star'></i>
-                                </div> <span>441 reviews</span>
-                            </div>
-                            <div class="mt-5"> <span class="fw-bold">Color</span>
-                                <div class="colors">
-                                    <ul id="marker">
-                                        <li id="marker-1"></li>
-                                        <li id="marker-2"></li>
-                                        <li id="marker-3"></li>
-                                        <li id="marker-4"></li>
-                                        <li id="marker-5"></li>
-                                    </ul>
-                                </div>
-                            </div-->
                             <div class="buttons d-flex flex-row mt-5 gap-3">
-                                <a class="btn btn-inquire" href="#contact">Inquire</a>
+                                <a class="btn btn-inquire pt-2" href="#contact">Inquire</a>
                             </div>
-
-                            <!--
-                            <div class="search-option"> <i class='bx bx-search-alt-2 first-search'></i>
-                                <div class="inputs"> <input type="text" name=""> </div> <i
-                                    class='bx bx-share-alt share'></i>
-                            </div>
-                            -->
                         </div>
                     </div>
                 </div>
@@ -231,7 +176,7 @@
                                             </div>
                                         </a>';
                             }
-                            
+
                             if ($product!="p1"){
                                 other_product($other_product_info['p1'],$other_product_info['n1'],'p1');
                                 }
@@ -257,55 +202,52 @@
                                 other_product($other_product_info['p8'],$other_product_info['n8'],'p8');
                                 }
                         ?>
-
                     </div>
                 </div>
             </div>
         </div>
 
+        <!-- Space -->
         <section class="p-4"></section>
 
     </main>
 
-    <!-- ======= Contact Section ======= -->
+    <!-- Contact -->
     <section id="contact" class="contact">
         <div class="container" data-aos="fade-up">
-
             <div class="section-title">
                 <h2>Contact</h2>
-                <p>If you have any questions or queries we will be happy to help. Feel free to contact us by our email
-                    form down below or telephone number and we will be sure to get back to you as soon as possible </p>
+                <p>If you have any questions or queries we will be happy to help. Feel free to contact us by our
+                    email
+                    form down below or telephone number and we will be sure to get back to you as soon as possible
+                </p>
             </div>
-
             <div class="row">
-
-            <div class="col-lg-5 d-flex align-items-stretch">
-                        <div class="info">
-                            <div class="address">
-                                <i class="bi bi-geo-alt"></i>
-                                <h4>Location:</h4>
-                                <p>Bay-2 12127 44th Street SE, Calgary, AB T2Z4H3</p>
-                            </div>
-
-                            <div class="email">
-                                <i class="bi bi-envelope"></i>
-                                <h4>Email:</h4>
-                                <p>info@cdftradinginc.com</p>
-                            </div>
-
-                            <div class="phone">
-                                <i class="bi bi-phone"></i>
-                                <h4>Call:</h4>
-                                <p>(825) 540-7207</p>
-                            </div>
-
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2514.0396657523575!2d-113.97385064850467!3d50.941479479445796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53717a19a9249117%3A0xcea2992710bff94b!2s44%20St%20SE%2C%20Calgary%2C%20AB%20T2Z%204H3%2C%20Canada!5e0!3m2!1sen!2sph!4v1658546413699!5m2!1sen!2sph"
-                                frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+                <div class="col-lg-5 d-flex align-items-stretch">
+                    <div class="info">
+                        <div class="address">
+                            <i class="bi bi-geo-alt"></i>
+                            <h4>Location:</h4>
+                            <p>Bay-2 12127 44th Street SE, Calgary, AB T2Z4H3</p>
                         </div>
 
-                    </div>
+                        <div class="email">
+                            <i class="bi bi-envelope"></i>
+                            <h4>Email:</h4>
+                            <p>info@cdftradinginc.com</p>
+                        </div>
 
+                        <div class="phone">
+                            <i class="bi bi-phone"></i>
+                            <h4>Call:</h4>
+                            <p>(825) 540-7207</p>
+                        </div>
+
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2514.0396657523575!2d-113.97385064850467!3d50.941479479445796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53717a19a9249117%3A0xcea2992710bff94b!2s44%20St%20SE%2C%20Calgary%2C%20AB%20T2Z%204H3%2C%20Canada!5e0!3m2!1sen!2sph!4v1658546413699!5m2!1sen!2sph"
+                            frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+                    </div>
+                </div>
                 <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
                     <form action="forms/contact.php" method="post" role="form" class="php-email-form">
                         <div class="row">
@@ -334,101 +276,12 @@
                         <div class="text-center"><button type="submit">Send Message</button></div>
                     </form>
                 </div>
-
-            </div>
-
-        </div>
-    </section><!-- End Contact Section -->
-
-    <!-- ======= Footer ======= -->
-    <footer id="footer">
-        <!--
-        <div class="footer-newsletter">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-6">
-                        <h4>Join Our Newsletter</h4>
-                        <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-                        <form action="" method="post">
-                            <input type="email" name="email"><input type="submit" value="Subscribe">
-                        </form>
-                    </div>
-                </div>
             </div>
         </div>
--->
-        <div class="footer-top">
-            <div class="container">
-                <div class="row">
+    </section>
 
-                    <div class="col-lg-3 col-md-6 footer-contact">
-                        <h3>CDF TRADING</h3>
-                        <p>
-                            Bay-2 12127 44th Street <br>
-                            SE, Calgary, AB T2Z4H3<br>
-                            <br><br>
-                            <strong>Phone:</strong> (825) 540-7207<br>
-                            <strong>Email:</strong> info@cdftradinginc.com<br>
-                        </p>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 footer-links">
-                        <h4>Useful Links</h4>
-                        <ul>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#hero">Home</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#services">Services</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="product.php">Products</a></li>
-                        </ul>
-                    </div>
-
-                    <!--
-                    <div class="col-lg-3 col-md-6 footer-links">
-                        <h4>Our Services</h4>
-                        <ul>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-                        </ul>
-                    </div> -->
-
-                    <div class="col-lg-3 col-md-6 footer-links">
-                        <h4>Our Social Networks</h4>
-                        <p>Visit our social media to learn more about us!</p>
-                        <div class="social-links mt-3">
-                            <!--
-                            <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                            -->
-                            <a href="https://www.facebook.com/CDFIMPORTS/?ref=pages_you_manage" class="facebook"><i
-                                    class="bx bxl-facebook"></i></a>
-                            <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                            <!--
-                            <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                            <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-                            -->
-
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-        <div class="container footer-bottom clearfix">
-            <div class="copyright">
-                &copy; CDF TRADING <strong><span></span></strong>. All Rights Reserved
-            </div>
-            <div class="credits">
-                <!-- All the links in the footer should remain intact. -->
-                <!-- You can delete the links only if you purchased the pro version. -->
-                <!-- Licensing information: https://bootstrapmade.com/license/ -->
-                <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/ -->
-                Designed by <a href="#">CDF WEB DEVELOPER/DESIGNER</a>
-            </div>
-        </div>
-    </footer><!-- End Footer -->
+    <!-- Footer -->
+    <?php include_once "footer.php"; ?>
 
     <div id="preloader"></div>
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
@@ -447,14 +300,13 @@
     <script src="assets/js/main.js"></script>
 
     <!-- Product function -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"
-        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script>
     function changeImage(element) {
         var main_prodcut_image = document.getElementById('main_product_image');
         main_prodcut_image.src = element.src;
     }
     </script>
+    
 </body>
 
 </html>
