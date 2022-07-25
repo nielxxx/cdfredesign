@@ -53,27 +53,7 @@
                     <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
                     <li><a class="nav-link scrollto" href="#about">About</a></li>
                     <li><a class="nav-link scrollto" href="#services">Services</a></li>
-                    <li><a class="nav-link scrollto" href="product.php">Product</a></li>
-                    <!--
-                    <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-                        <ul>
-                            <li><a href="#">Drop Down 1</a></li>
-                            <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i
-                                        class="bi bi-chevron-right"></i></a>
-                                <ul>
-                                    <li><a href="#">Deep Drop Down 1</a></li>
-                                    <li><a href="#">Deep Drop Down 2</a></li>
-                                    <li><a href="#">Deep Drop Down 3</a></li>
-                                    <li><a href="#">Deep Drop Down 4</a></li>
-                                    <li><a href="#">Deep Drop Down 5</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#">Drop Down 2</a></li>
-                            <li><a href="#">Drop Down 3</a></li>
-                            <li><a href="#">Drop Down 4</a></li>
-                        </ul>
--->
-                    </li>
+                    <li><a class="nav-link scrollto" href="product#product">Product</a></li>
                     <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
                     <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
                 </ul>
@@ -334,15 +314,17 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 d-flex align-items-stretch mt-4" data-aos="zoom-in" 
+                    data-aos-delay="100">
                         <div class="icon-box">
                             <div class="icon"><i class="bx bx-cart"></i></div>
                             <h4><a href="">Choose your order</a></h4>
-                            <p>In order to choose your order, first you visit the production of our website then you choose your desired.</p>
+                            <p>In order to choose your order, first you visit the product of our website then you choose your desired.</p>
                         </div>
                     </div>
 
-                    <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in"
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 d-flex align-items-stretch mt-4" data-aos="zoom-in"
                         data-aos-delay="200">
                         <div class="icon-box">
                             <div class="icon"><i class="bx bx-money"></i></div>
@@ -351,12 +333,12 @@
                         </div>
                     </div>
 
-                    <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in"
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 d-flex align-items-stretch mt-4" data-aos="zoom-in"
                         data-aos-delay="300">
                         <div class="icon-box">
                             <div class="icon"><i class="bx bx-car"></i></div>
                             <h4><a href="">Wait for the delivery</a></h4>
-                            <p>Get ready to receiv your product you order on us and enjoy!</p>
+                            <p>Get ready to receive your product you order on us and enjoy!</p>
                         </div>
                     </div>
 

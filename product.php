@@ -51,9 +51,9 @@
             <nav id="navbar" class="navbar">
                 <ul>
                     <li><a class="nav-link scrollto " href="index.php">Home</a></li>
-                    <li><a class="nav-link scrollto" href="index.php">About</a></li>
-                    <li><a class="nav-link scrollto" href="index.php">Services</a></li>
-                    <li><a class="nav-link scrollto active" href="product.php">Product</a></li>
+                    <li><a class="nav-link scrollto" href="index#about">About</a></li>
+                    <li><a class="nav-link scrollto" href="index#services">Services</a></li>
+                    <li><a class="nav-link scrollto" href="product#product">Product</a></li>
                     <!--
                     <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
@@ -72,10 +72,10 @@
                             <li><a href="#">Drop Down 3</a></li>
                             <li><a href="#">Drop Down 4</a></li>
                         </ul>
--->
+                        -->
                     </li>
                     <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-                    <li><a class="getstarted scrollto" href="index.php">Get Started</a></li>
+                    <li><a class="getstarted scrollto" href="index#about">Get Started</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav><!-- .navbar -->
@@ -85,7 +85,7 @@
 
     <?php
         if(empty($_GET['product'])){
-            echo "<script> window.location.href = 'product.php?product=p1' </script>";
+            echo "<script> window.location.href = 'product?product=p1' </script>";
         }
         $other_product_info=[
             'n1'=>'Boneless Dilis','p1'=>'boneless-dilis(m)1',
@@ -150,7 +150,7 @@
         
     ?>
 
-    <main id="product">
+    <main id="product" class="product">
         <section class="p-4"></section>
         <div class="container mt-5 mb-5" data-aos="fade-up">
             <div class="card">
@@ -221,8 +221,8 @@
                     <h4>Other Products</h4>
                     <div class="row no-gutters similar-products d-flex flex-row">
                         <?php
-                            function other_product($p1,$n1){
-                                echo    '<a href="product.php?product=p1" class="col-lg-2 col-md-3 col-sm-4 col-6 p-2">
+                            function other_product($p1,$n1,$link){
+                                echo    '<a href="product.php?product='.$link.'" class="col-lg-2 col-md-3 col-sm-4 col-6 p-2">
                                             <div class="card border p-1 m-2" style="width: 9rem;margin-right: 3px;"> 
                                                 <img src="assets/img/products/'.$p1.'.jpg" class="card-img-top" alt="...">
                                                 <div class="card-body">
@@ -233,28 +233,28 @@
                             }
                             
                             if ($product!="p1"){
-                                other_product($other_product_info['p1'],$other_product_info['n1']);
+                                other_product($other_product_info['p1'],$other_product_info['n1'],'p1');
                                 }
                             if ($product!="p2"){
-                                other_product($other_product_info['p2'],$other_product_info['n2']);
+                                other_product($other_product_info['p2'],$other_product_info['n2'],'p2');
                                 }
                             if ($product!="p3"){
-                                other_product($other_product_info['p3'],$other_product_info['n3']);
+                                other_product($other_product_info['p3'],$other_product_info['n3'],'p3');
                                 }
                             if ($product!="p4"){
-                                other_product($other_product_info['p4'],$other_product_info['n4']);
+                                other_product($other_product_info['p4'],$other_product_info['n4'],'p4');
                                 }
                             if ($product!="p5"){
-                                other_product($other_product_info['p5'],$other_product_info['n5']);
+                                other_product($other_product_info['p5'],$other_product_info['n5'],'p5');
                                 }
                             if ($product!="p6"){
-                                other_product($other_product_info['p6'],$other_product_info['n6']);
+                                other_product($other_product_info['p6'],$other_product_info['n6'],'p6');
                                 }
                             if ($product!="p7"){
-                                other_product($other_product_info['p7'],$other_product_info['n7']);
+                                other_product($other_product_info['p7'],$other_product_info['n7'],'p7');
                                 }
                             if ($product!="p8"){
-                                other_product($other_product_info['p8'],$other_product_info['n8']);
+                                other_product($other_product_info['p8'],$other_product_info['n8'],'p8');
                                 }
                         ?>
 
