@@ -33,7 +33,8 @@
 
     <!-- new added -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="stylesheet" href="assets\css\style2.css">
+    <link rel="stylesheet" href="assets/css/style2.css">
+
 
 </head>
 
@@ -102,25 +103,25 @@
             $productinfo = ['name'=>'Boneless Dilis',
                 'info'=>'Dried fish (dilis) are anchovies. Anchovies are dried for food. You can snack on cooked dilis or they can be an accompaniment to rice as part of a meal.'
             ];
-            $productpic = ['boneless-dilis(m)1','boneless-dilis(m)2','boneless-dilis(m)3','boneless-dilis(m)4'];
+            $productpic = ['boneless-dilis(m)1','boneless-dilis(m)2','boneless-dilis(m)3'];
         }
         if($product=='p2'){
             $productinfo = ['name'=>'Dangit Boneless',
                 'info'=>'Cebu is known for its danggit (“dang-git”)—salted, sun-dried rabbitfish (aka spinefoot), which is abundant and native to the islands shallower waters. The fish are split open, cleaned, salted, and spread out on drying racks under the sun.'
             ];
-            $productpic = ['dangit-boneless(L)1','dangit-boneless(m)1','dangit-boneless(s)1','dangit-boneless(s&m)1'];
+            $productpic = ['dangit-boneless(L)1','dangit-boneless(m)1','dangit-boneless(s)1'];
         }
         if($product=='p3'){
             $productinfo = ['name'=>'Dilis',
                 'info'=>'Dilis is also known as anchovies. Health benefits of anchovies include healthy heart, skin care, weight loss, as well as healthy bones and teeth.'
             ];
-            $productpic = ['dilis(m)1','dilis(m)2','dilis(m)4','dilis(s)1'];
+            $productpic = ['dilis(m)1','dilis(m)2','dilis(s)1'];
         }
         if($product=='p4'){
             $productinfo = ['name'=>'Pusit',
                 'info'=>'Pusit is a dried squid where many local Filipinos love to eat because of the soft, chewy texture and taste.'
             ];
-            $productpic = ['pusit(s)1','pusit(s)3','pusit(s)6','pusit(s)8'];
+            $productpic = ['pusit(s)1','pusit(s)3','pusit(s)8'];
         }
         if($product=='p5'){
             $productinfo = ['name'=>'Tuyo',
@@ -220,85 +221,40 @@
                     <h4>Other Products</h4>
                     <div class="row no-gutters similar-products d-flex flex-row">
                         <?php
-                            if ($product!="p1"){
-                                echo    '<a href="product.php?product=p1" class="col-3 p-2">
+                            function other_product($p1,$n1){
+                                echo    '<a href="product.php?product=p1" class="col-lg-2 col-md-3 col-sm-4 col-6 p-2">
                                             <div class="card border p-1 m-2" style="width: 9rem;margin-right: 3px;"> 
-                                                <img src="assets/img/products/'.$other_product_info['p1'].'.jpg" class="card-img-top" alt="...">
+                                                <img src="assets/img/products/'.$p1.'.jpg" class="card-img-top" alt="...">
                                                 <div class="card-body">
-                                                    <h6 class="card-title link-dark">'.$other_product_info['n1'].'</h6>
+                                                    <h6 class="card-title link-dark">'.$n1.'</h6>
                                                 </div>
                                             </div>
                                         </a>';
+                            }
+                            
+                            if ($product!="p1"){
+                                other_product($other_product_info['p1'],$other_product_info['n1']);
                                 }
                             if ($product!="p2"){
-                                echo    '<a href="product.php?product=p2" class="col-3 p-2">
-                                            <div class="card border p-1 m-2" style="width: 9rem;margin-right: 3px;"> 
-                                                <img src="assets/img/products/'.$other_product_info['p2'].'.jpg" class="card-img-top" alt="...">
-                                                <div class="card-body">
-                                                    <h6 class="card-title link-dark">'.$other_product_info['n2'].'</h6>
-                                                </div>
-                                            </div>
-                                        </a>';
+                                other_product($other_product_info['p2'],$other_product_info['n2']);
                                 }
                             if ($product!="p3"){
-                                echo    '<a href="product.php?product=p3" class="col-3 p-2">
-                                            <div class="card border p-1 m-2" style="width: 9rem;margin-right: 3px;"> 
-                                                <img src="assets/img/products/'.$other_product_info['p3'].'.jpg" class="card-img-top" alt="...">
-                                                <div class="card-body">
-                                                    <h6 class="card-title link-dark">'.$other_product_info['n3'].'</h6>
-                                                </div>
-                                            </div>
-                                        </a>';
+                                other_product($other_product_info['p3'],$other_product_info['n3']);
                                 }
                             if ($product!="p4"){
-                                echo    '<a href="product.php?product=p4" class="col-3 p-2">
-                                            <div class="card border p-1 m-2" style="width: 9rem;margin-right: 3px;"> 
-                                                <img src="assets/img/products/'.$other_product_info['p4'].'.jpg" class="card-img-top" alt="...">
-                                                <div class="card-body">
-                                                    <h6 class="card-title link-dark">'.$other_product_info['n4'].'</h6>
-                                                </div>
-                                            </div>
-                                        </a>';
+                                other_product($other_product_info['p4'],$other_product_info['n4']);
                                 }
                             if ($product!="p5"){
-                                echo    '<a href="product.php?product=p5" class="col-3 p-2">
-                                            <div class="card border p-1 m-2" style="width: 9rem;margin-right: 3px;"> 
-                                                <img src="assets/img/products/'.$other_product_info['p5'].'.jpg" class="card-img-top" alt="...">
-                                                <div class="card-body">
-                                                    <h6 class="card-title link-dark">'.$other_product_info['n5'].'</h6>
-                                                </div>
-                                            </div>
-                                        </a>';
+                                other_product($other_product_info['p5'],$other_product_info['n5']);
                                 }
                             if ($product!="p6"){
-                                echo    '<a href="product.php?product=p6" class="col-3 p-2">
-                                            <div class="card border p-1 m-2" style="width: 9rem;margin-right: 3px;"> 
-                                                <img src="assets/img/products/'.$other_product_info['p6'].'.jpg" class="card-img-top" alt="...">
-                                                <div class="card-body">
-                                                    <h6 class="card-title link-dark">'.$other_product_info['n6'].'</h6>
-                                                </div>
-                                            </div>
-                                        </a>';
+                                other_product($other_product_info['p6'],$other_product_info['n6']);
                                 }
                             if ($product!="p7"){
-                                echo    '<a href="product.php?product=p7" class="col-3 p-2">
-                                            <div class="card border p-1 m-2" style="width: 9rem;margin-right: 3px;"> 
-                                                <img src="assets/img/products/'.$other_product_info['p7'].'.jpg" class="card-img-top" alt="...">
-                                                <div class="card-body">
-                                                    <h6 class="card-title link-dark">'.$other_product_info['n7'].'</h6>
-                                                </div>
-                                            </div>
-                                        </a>';
+                                other_product($other_product_info['p7'],$other_product_info['n7']);
                                 }
                             if ($product!="p8"){
-                                echo    '<a href="product.php?product=p8" class="col-3 p-2">
-                                            <div class="card border p-1 m-2" style="width: 9rem;margin-right: 3px;"> 
-                                                <img src="assets/img/products/'.$other_product_info['p8'].'.jpg" class="card-img-top" alt="...">
-                                                <div class="card-body">
-                                                    <h6 class="card-title link-dark">'.$other_product_info['n8'].'</h6>
-                                                </div>
-                                            </div>
-                                        </a>';
+                                other_product($other_product_info['p8'],$other_product_info['n8']);
                                 }
                         ?>
 
@@ -499,7 +455,6 @@
         main_prodcut_image.src = element.src;
     }
     </script>
-
 </body>
 
 </html>
