@@ -100,49 +100,49 @@
         $product = $_GET['product'];
         if($product=='p1'){
             $productinfo = ['name'=>'Boneless Dilis',
-                'info'=>'baklsdljsadjfbakshjdgbfkjhabwekfyihbawebfwefbuh'
+                'info'=>'Dried fish (dilis) are anchovies. Anchovies are dried for food. You can snack on cooked dilis or they can be an accompaniment to rice as part of a meal.'
             ];
             $productpic = ['boneless-dilis(m)1','boneless-dilis(m)2','boneless-dilis(m)3','boneless-dilis(m)4'];
         }
         if($product=='p2'){
             $productinfo = ['name'=>'Dangit Boneless',
-                'info'=>'baklsdljsadjfbakshjdgbfkjhabwekfyihbawebfwefbuh'
+                'info'=>'Cebu is known for its danggit (“dang-git”)—salted, sun-dried rabbitfish (aka spinefoot), which is abundant and native to the islands shallower waters. The fish are split open, cleaned, salted, and spread out on drying racks under the sun.'
             ];
             $productpic = ['dangit-boneless(L)1','dangit-boneless(m)1','dangit-boneless(s)1','dangit-boneless(s&m)1'];
         }
         if($product=='p3'){
             $productinfo = ['name'=>'Dilis',
-                'info'=>'baklsdljsadjfbakshjdgbfkjhabwekfyihbawebfwefbuh'
+                'info'=>'Dilis is also known as anchovies. Health benefits of anchovies include healthy heart, skin care, weight loss, as well as healthy bones and teeth.'
             ];
             $productpic = ['dilis(m)1','dilis(m)2','dilis(m)4','dilis(s)1'];
         }
         if($product=='p4'){
             $productinfo = ['name'=>'Pusit',
-                'info'=>'baklsdljsadjfbakshjdgbfkjhabwekfyihbawebfwefbuh'
+                'info'=>'Pusit is a dried squid where many local Filipinos love to eat because of the soft, chewy texture and taste.'
             ];
             $productpic = ['pusit(s)1','pusit(s)3','pusit(s)6','pusit(s)8'];
         }
         if($product=='p5'){
             $productinfo = ['name'=>'Tuyo',
-                'info'=>'baklsdljsadjfbakshjdgbfkjhabwekfyihbawebfwefbuh'
+                'info'=>'Tuyo fish is a type of Filipino sun dried fish. This is usually fried quickly and eaten with spicy vinegar dip and rice'
             ];
             $productpic = ['tuyo1','tuyo2','tuyo3'];
         }
         if($product=='p6'){
             $productinfo = ['name'=>'Sapsap',
-                'info'=>'baklsdljsadjfbakshjdgbfkjhabwekfyihbawebfwefbuh'
+                'info'=>'We serve to bring you the best of Cebu has to offer. Our Sapsap (Dried Ponyfish) are prepared by using traditional drying techniques.'
             ];
             $productpic = ['sapsap1','sapsap2','sapsap4'];
         }
         if($product=='p7'){
             $productinfo = ['name'=>'Pusit Ballpen',
-                'info'=>'baklsdljsadjfbakshjdgbfkjhabwekfyihbawebfwefbuh'
+                'info'=>'Tarurot/Dried Pusit Ballpen/Pusit Buo. -is sun dried WHOLE squid from Cebu. “Pusit buo” has not been gutted, so most of its ink is still inside ( thus, the “ballpen” moniker). If you favor dried squid with stronger squid “flavor”, this one is the dried product for you.'
             ];
             $productpic = ['pusit-ballpen(m)1','pusit-ballpen(m)2'];
         }
         if($product=='p8'){
             $productinfo = ['name'=>'Srimp',
-                'info'=>'baklsdljsadjfbakshjdgbfkjhabwekfyihbawebfwefbuh'
+                'info'=>'In the Philippines, dried shrimp is called hibi or hibe and is used like salt to season dishes as well as in soup bases such as misua.'
             ];
             $productpic = ['shrimp','shrimp1'];
         }
@@ -201,7 +201,7 @@
                                 </div>
                             </div-->
                             <div class="buttons d-flex flex-row mt-5 gap-3">
-                                <button class="btn btn-inquire">Inquire</button>
+                                <a class="btn btn-inquire" href="#contact">Inquire</a>
                             </div>
 
                             <!--
@@ -323,32 +323,32 @@
 
             <div class="row">
 
-                <div class="col-lg-5 d-flex align-items-stretch">
-                    <div class="info">
-                        <div class="address">
-                            <i class="bi bi-geo-alt"></i>
-                            <h4>Location:</h4>
-                            <p>A108 Adam Street, New York, NY 535022</p>
+            <div class="col-lg-5 d-flex align-items-stretch">
+                        <div class="info">
+                            <div class="address">
+                                <i class="bi bi-geo-alt"></i>
+                                <h4>Location:</h4>
+                                <p>Bay-2 12127 44th Street SE, Calgary, AB T2Z4H3</p>
+                            </div>
+
+                            <div class="email">
+                                <i class="bi bi-envelope"></i>
+                                <h4>Email:</h4>
+                                <p>info@cdftradinginc.com</p>
+                            </div>
+
+                            <div class="phone">
+                                <i class="bi bi-phone"></i>
+                                <h4>Call:</h4>
+                                <p>(825) 540-7207</p>
+                            </div>
+
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2514.0396657523575!2d-113.97385064850467!3d50.941479479445796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53717a19a9249117%3A0xcea2992710bff94b!2s44%20St%20SE%2C%20Calgary%2C%20AB%20T2Z%204H3%2C%20Canada!5e0!3m2!1sen!2sph!4v1658546413699!5m2!1sen!2sph"
+                                frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
                         </div>
 
-                        <div class="email">
-                            <i class="bi bi-envelope"></i>
-                            <h4>Email:</h4>
-                            <p>info@example.com</p>
-                        </div>
-
-                        <div class="phone">
-                            <i class="bi bi-phone"></i>
-                            <h4>Call:</h4>
-                            <p>+1 5589 55488 55s</p>
-                        </div>
-
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
-                            frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
                     </div>
-
-                </div>
 
                 <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
                     <form action="forms/contact.php" method="post" role="form" class="php-email-form">
