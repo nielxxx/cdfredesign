@@ -154,7 +154,7 @@
                                 <h6><?php echo $productinfo['info']; ?></h6>
                             </div>
                             <div class="buttons d-flex flex-row mt-5 gap-3">
-                                <a class="btn btn-inquire pt-2" href="#contact">Inquire</a>
+                                <a  href="#contact"type="button" class="btn btn-outline-dark pt-2">Inquire</a>
                             </div>
                         </div>
                     </div>
