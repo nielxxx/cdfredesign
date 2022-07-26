@@ -69,7 +69,7 @@
 
                         <a href="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FCDFIMPORTS%2Fvideos%2F336756665166551%2F&show_text=false&width=560&t="
                             class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch
-                                Video</span></a> -->
+                                Video</span></a>
                     </div>
                 </div>
                 <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
