@@ -133,45 +133,45 @@
                         <div class="content">
                             <h3>Why us ?<strong> We're different than the rest</strong></h3>
                             <p>
-                                One sentence for why us etc etc etc One sentence for why us etc etc etc One sentence for
-                                why us etc etc etc
+                                Here's the reason why you choose on us
                             </p>
                         </div>
                         <div class="accordion-list">
                             <ul>
                                 <li>
                                     <a data-bs-toggle="collapse" class="collapse"
-                                        data-bs-target="#accordion-list-1"><span>01</span> Example 1 Example 1 Example 1
+                                        data-bs-target="#accordion-list-1"><span>01</span>We are fair in pricing our products
                                         <i class="bx bx-chevron-down icon-show"></i><i
                                             class="bx bx-chevron-up icon-close"></i></a>
                                     <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
                                         <p>
-                                            One sentence for example 1 One sentence for example 1 One sentence for
-                                            example 1
+                                        Our pricing are fair and affordable. There are no hidden fees. Any unexpected or additional 
+                                        expenses must be pre-approved by you. That is how we would like to be treated, and that 
+                                        is how we treat our clients.
                                         </p>
                                     </div>
                                 </li>
                                 <li>
                                     <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2"
-                                        class="collapsed"><span>02</span> Example 2 Example 2 Example 2 <i
+                                        class="collapsed"><span>02</span>We pay attention to details <i
                                             class="bx bx-chevron-down icon-show"></i><i
                                             class="bx bx-chevron-up icon-close"></i></a>
                                     <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
                                         <p>
-                                            One sentence for example 2 One sentence for example 2 One sentence for
-                                            example 2
+                                        Our attention to detail, deadline management, and keen project management 
+                                        set us apart from the competition. We are innovative while we remain mindful of your finances.
                                         </p>
                                     </div>
                                 </li>
                                 <li>
                                     <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3"
-                                        class="collapsed"><span>03</span> Example 3 Example 3 Example 3<i
+                                        class="collapsed"><span>03</span>We value creativity<i
                                             class="bx bx-chevron-down icon-show"></i><i
                                             class="bx bx-chevron-up icon-close"></i></a>
                                     <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
                                         <p>
-                                            One sentence for example 3 One sentence for example 3 One sentence for
-                                            example 3
+                                        We provide to our products wide expertise in advertising, design, branding, public relations, research, 
+                                        and strategic planning. Our product will not only look great, but they will also satisfy your cravings.
                                         </p>
                                     </div>
                                 </li>
