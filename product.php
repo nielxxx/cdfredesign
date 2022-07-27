@@ -48,7 +48,7 @@
                     <li><a class="nav-link scrollto" href="index.php#about">About</a></li>
                     <li><a class="nav-link scrollto" href="index.php#services">Services</a></li>
                     <li><a class="nav-link scrollto" href="product.php#product">Product</a></li>
-                    <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+                    <li><a class="nav-link scrollto" href="product.php#contact">Contact</a></li>
                     <li><a class="getstarted scrollto" href="index.php#about">Get Started</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
