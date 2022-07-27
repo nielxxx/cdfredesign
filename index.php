@@ -131,41 +131,45 @@
                         <div class="content">
                             <h3>Why us ?<strong> We're different than the rest</strong></h3>
                             <p>
-                                One sentence for why us etc etc etc One sentence for why us etc etc etc One sentence for why us etc etc etc
+                                One sentence for why us etc etc etc One sentence for why us etc etc etc One sentence for
+                                why us etc etc etc
                             </p>
                         </div>
                         <div class="accordion-list">
                             <ul>
                                 <li>
                                     <a data-bs-toggle="collapse" class="collapse"
-                                        data-bs-target="#accordion-list-1"><span>01</span> Example 1  Example 1  Example 1 
-                                         <i class="bx bx-chevron-down icon-show"></i><i
+                                        data-bs-target="#accordion-list-1"><span>01</span> Example 1 Example 1 Example 1
+                                        <i class="bx bx-chevron-down icon-show"></i><i
                                             class="bx bx-chevron-up icon-close"></i></a>
                                     <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
                                         <p>
-                                            One sentence for example 1 One sentence for example 1 One sentence for example 1
+                                            One sentence for example 1 One sentence for example 1 One sentence for
+                                            example 1
                                         </p>
                                     </div>
                                 </li>
                                 <li>
                                     <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2"
-                                        class="collapsed"><span>02</span> Example 2  Example 2  Example 2  <i
+                                        class="collapsed"><span>02</span> Example 2 Example 2 Example 2 <i
                                             class="bx bx-chevron-down icon-show"></i><i
                                             class="bx bx-chevron-up icon-close"></i></a>
                                     <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
                                         <p>
-                                        One sentence for example 2 One sentence for example 2 One sentence for example 2
+                                            One sentence for example 2 One sentence for example 2 One sentence for
+                                            example 2
                                         </p>
                                     </div>
                                 </li>
                                 <li>
                                     <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3"
-                                        class="collapsed"><span>03</span> Example 3  Example 3  Example 3<i
+                                        class="collapsed"><span>03</span> Example 3 Example 3 Example 3<i
                                             class="bx bx-chevron-down icon-show"></i><i
                                             class="bx bx-chevron-up icon-close"></i></a>
                                     <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
                                         <p>
-                                        One sentence for example 3 One sentence for example 3 One sentence for example 3
+                                            One sentence for example 3 One sentence for example 3 One sentence for
+                                            example 3
                                         </p>
                                     </div>
                                 </li>
@@ -291,6 +295,56 @@
         </section>
     </main>
 
+    <?php
+        require 'smtp/cred.php';
+
+        //identify if user inputs something
+        if(isset($_POST['email'])&&isset($_POST['name'])&&isset($_POST['message'])&&isset($_POST['subject'])){
+            $email=$_POST['email'];
+            $name=$_POST['name'];
+            $message=$_POST['message'];
+            $subject=$_POST['subject'];
+            
+            include('smtp/PHPMailerAutoload.php');
+        
+            $mail = new PHPMailer(); 
+            $mail->SMTPDebug = 4;
+            $mail->IsSMTP(); 
+            $mail->SMTPAuth = true; 
+            $mail->SMTPSecure = 'tls'; 
+            $mail->Host = "smtp.gmail.com";
+            $mail->Port = 587; 
+            $mail->IsHTML(true);
+            $mail->CharSet = 'UTF-8';
+            $mail->Username = EMAIL;//transmitter email
+            $mail->Password = PWD;
+            $mail->Subject = $subject;
+            $mail->Body = 
+            "<h4>From: <strong>".$name." </strong> </h4>".
+            "<h4>Email: <strong>".$email." </strong> </h4>".
+            "<h4>Message: <strong>".$email." ".$message."</strong> </h4>" ;
+
+            $mail->SetFrom($email,"CDF Trading");
+            $mail->AddAddress('renzyjohnm1@gmail.com');//bussiness email
+            $mail->addReplyTo($email);//senders email
+
+            $mail->SMTPOptions=array('ssl'=>array(
+                'verify_peer'=>false,
+                'verify_peer_name'=>false,
+                'allow_self_signed'=>false
+            ));
+
+            if ($mail->send() ) {
+                echo "<script> window.location.href = 'index?mail=1#contact' </script>";
+            }else{
+                echo "<script> window.location.href = 'index?mail=0#contact' </script>";
+            }
+        $mail->smtpClose();
+        }
+
+    ?>
+
+
     <!-- Contact -->
     <section id="contact" class="contact">
         <div class="container" data-aos="fade-up">
@@ -323,7 +377,7 @@
                     </div>
                 </div>
                 <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-                    <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                    <form action="index" method="post" class="php-email-form">
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <label for="name">Your Name</label>
@@ -342,12 +396,23 @@
                             <label for="name">Message</label>
                             <textarea class="form-control" name="message" rows="10" required></textarea>
                         </div>
-                        <div class="my-3">
-                            <div class="loading">Loading</div>
-                            <div class="error-message"></div>
-                            <div class="sent-message">Your message has been sent. Thank you!</div>
+                        <?php
+
+                        if(isset($_GET['mail'])){
+                            if($_GET['mail']==1){
+                                echo    '<div class="form-group">
+                                            <div class="bg-success p-2 rounded text-light">Your message has been sent. Thank you!</div>
+                                        </div>';
+                            }else{
+                                echo    '<div class="form-group">
+                                            <div class="bg-danger p-2 rounded text-light">Error, Please try again later. Thank you!</div>
+                                        </div>';
+                            }
+                        }
+                        ?>
+                        <div class="text-center">
+                            <button type="submit">Send Message</button>
                         </div>
-                        <div class="text-center"><button type="submit">Send Message</button></div>
                     </form>
                 </div>
             </div>
@@ -368,7 +433,6 @@
     <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
     <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
