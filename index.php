@@ -47,7 +47,7 @@
                     <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
                     <li><a class="nav-link scrollto" href="#about">About</a></li>
                     <li><a class="nav-link scrollto" href="#services">Services</a></li>
-                    <li><a class="nav-link scrollto" href="product#product">Product</a></li>
+                    <li><a class="nav-link scrollto" href="product.php#product">Product</a></li>
                     <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
                     <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
                 </ul>
@@ -337,9 +337,9 @@
             ));
 
             if ($mail->send() ) {
-                echo "<script> window.location.href = 'index?mail=1#contact' </script>";
+                echo "<script> window.location.href = 'index.php?mail=1#contact' </script>";
             }else{
-                echo "<script> window.location.href = 'index?mail=0#contact' </script>";
+                echo "<script> window.location.href = 'index.php?mail=0#contact' </script>";
             }
         $mail->smtpClose();
         }
@@ -379,7 +379,7 @@
                     </div>
                 </div>
                 <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-                    <form action="index" method="post" class="php-email-form">
+                    <form action="index.php" method="post" class="php-email-form">
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <label for="name">Your Name</label>

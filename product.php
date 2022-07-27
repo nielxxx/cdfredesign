@@ -45,11 +45,11 @@
             <nav id="navbar" class="navbar">
                 <ul>
                     <li><a class="nav-link scrollto " href="index.php">Home</a></li>
-                    <li><a class="nav-link scrollto" href="index#about">About</a></li>
-                    <li><a class="nav-link scrollto" href="index#services">Services</a></li>
-                    <li><a class="nav-link scrollto" href="product#product">Product</a></li>
+                    <li><a class="nav-link scrollto" href="index.php#about">About</a></li>
+                    <li><a class="nav-link scrollto" href="index.php#services">Services</a></li>
+                    <li><a class="nav-link scrollto" href="product.php#product">Product</a></li>
                     <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-                    <li><a class="getstarted scrollto" href="index#about">Get Started</a></li>
+                    <li><a class="getstarted scrollto" href="index.php#about">Get Started</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav>
@@ -57,7 +57,7 @@
     </header>
     <?php
         if(empty($_GET['product'])){
-            echo "<script> window.location.href = 'product?product=p1' </script>";
+            echo "<script> window.location.href = 'product.php?product=p1' </script>";
         }
         $other_product_info=[
             'n1'=>'Boneless Dilis','p1'=>'boneless-dilis(m)1',
@@ -251,7 +251,7 @@
                     </div>
                 </div>
                 <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-                    <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                    <form action="product.php" method="post" class="php-email-form">
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <label for="name">Your Name</label>
