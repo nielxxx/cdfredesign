@@ -12,7 +12,7 @@
         $mail->IsSMTP(); 
         $mail->SMTPAuth = true; 
         $mail->SMTPSecure = 'tls'; 
-        $mail->Host = "mail.lgcgroup.biz"; //host
+        $mail->Host = ""; //host
         $mail->Port = 587; //port
         $mail->IsHTML(true);
         $mail->CharSet = 'UTF-8';

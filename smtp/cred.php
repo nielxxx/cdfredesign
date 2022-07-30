@@ -1,6 +1,6 @@
 <?php
-    define('EMAIL', 'renz.minerva@lgcgroup.biz');
-    define('PWD', 'Minerva@2022!')
+    define('EMAIL', '');
+    define('PWD', '')
     //if error occurs http://www.google.com/accounts/DisplayUnlockCaptcha
 
 ?>
