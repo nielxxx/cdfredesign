@@ -18,11 +18,11 @@
         $mail->CharSet = 'UTF-8';
         $mail->Username = EMAIL; //transmitter email
         $mail->Password = PWD; //transmitter pass
-        $mail->Subject = "CDFTRADINGINC.COM Contact Form";
+        $mail->Subject = $subject;
         $mail->Body = 
         "<h4>From: ".$name." </h4>".
         "<h4>Email: ".$email." </h4>".
-        "<h4>".$subject." <br> ".$message." </h4>" ;
+        "<h4>Message: <br>".$message." </h4>" ;
 
         $mail->SetFrom(EMAIL,"CDFTRADINGINC.COM"); //from email
         $mail->AddAddress('renzyjohnm1@gmail.com'); //reciever email
