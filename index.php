@@ -75,7 +75,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
-                    <img class="img-fluid animated" src="assets/img/image1.png" id="image-changing" alt=""
+                    <img class="img-fluid animated" id="image-changing" alt=""
                         class="object" data-value="-10">
                 </div>
             </div>
@@ -140,14 +140,17 @@
                             <ul>
                                 <li>
                                     <a data-bs-toggle="collapse" class="collapse"
-                                        data-bs-target="#accordion-list-1"><span>01</span>We are fair in pricing our products
+                                        data-bs-target="#accordion-list-1"><span>01</span>We are fair in pricing our
+                                        products
                                         <i class="bx bx-chevron-down icon-show"></i><i
                                             class="bx bx-chevron-up icon-close"></i></a>
                                     <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
                                         <p>
-                                        Our pricing are fair and affordable. There are no hidden fees. Any unexpected or additional 
-                                        expenses must be pre-approved by you. That is how we would like to be treated, and that 
-                                        is how we treat our clients.
+                                            Our pricing are fair and affordable. There are no hidden fees. Any
+                                            unexpected or additional
+                                            expenses must be pre-approved by you. That is how we would like to be
+                                            treated, and that
+                                            is how we treat our clients.
                                         </p>
                                     </div>
                                 </li>
@@ -158,8 +161,9 @@
                                             class="bx bx-chevron-up icon-close"></i></a>
                                     <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
                                         <p>
-                                        Our attention to detail, deadline management, and keen project management 
-                                        set us apart from the competition. We are innovative while we remain mindful of your finances.
+                                            Our attention to detail, deadline management, and keen project management
+                                            set us apart from the competition. We are innovative while we remain mindful
+                                            of your finances.
                                         </p>
                                     </div>
                                 </li>
@@ -170,8 +174,10 @@
                                             class="bx bx-chevron-up icon-close"></i></a>
                                     <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
                                         <p>
-                                        We provide to our products wide expertise in advertising, design, branding, public relations, research, 
-                                        and strategic planning. Our product will not only look great, but they will also satisfy your cravings.
+                                            We provide to our products wide expertise in advertising, design, branding,
+                                            public relations, research,
+                                            and strategic planning. Our product will not only look great, but they will
+                                            also satisfy your cravings.
                                         </p>
                                     </div>
                                 </li>
@@ -297,56 +303,6 @@
         </section>
     </main>
 
-    <?php
-        require 'smtp/cred.php';
-
-        //identify if user inputs something
-        if(isset($_POST['email'])&&isset($_POST['name'])&&isset($_POST['message'])&&isset($_POST['subject'])){
-            $email=$_POST['email'];
-            $name=$_POST['name'];
-            $message=$_POST['message'];
-            $subject=$_POST['subject'];
-            
-            include('smtp/PHPMailerAutoload.php');
-        
-            $mail = new PHPMailer(); 
-            $mail->SMTPDebug = 4;
-            $mail->IsSMTP(); 
-            $mail->SMTPAuth = true; 
-            $mail->SMTPSecure = 'tls'; 
-            $mail->Host = "smtp.gmail.com";
-            $mail->Port = 587; 
-            $mail->IsHTML(true);
-            $mail->CharSet = 'UTF-8';
-            $mail->Username = EMAIL;//transmitter email
-            $mail->Password = PWD;
-            $mail->Subject = $subject;
-            $mail->Body = 
-            "<h4>From: <strong>".$name." </strong> </h4>".
-            "<h4>Email: <strong>".$email." </strong> </h4>".
-            "<h4>Message: <strong>".$email." ".$message."</strong> </h4>" ;
-
-            $mail->SetFrom($email,"CDF Trading");
-            $mail->AddAddress('renzyjohnm1@gmail.com');//bussiness email
-            $mail->addReplyTo($email);//senders email
-
-            $mail->SMTPOptions=array('ssl'=>array(
-                'verify_peer'=>false,
-                'verify_peer_name'=>false,
-                'allow_self_signed'=>false
-            ));
-
-            if ($mail->send() ) {
-                echo "<script> window.location.href = 'index.php?mail=1#contact' </script>";
-            }else{
-                echo "<script> window.location.href = 'index.php?mail=0#contact' </script>";
-            }
-        $mail->smtpClose();
-        }
-
-    ?>
-
-
     <!-- Contact -->
     <section id="contact" class="contact">
         <div class="container" data-aos="fade-up">
@@ -379,43 +335,35 @@
                     </div>
                 </div>
                 <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-                    <form action="index.php" method="post" class="php-email-form">
+
+                    <div class="php-email-form">
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <label for="name">Your Name</label>
-                                <input type="text" name="name" class="form-control" id="name" required>
+                                <input type="text" class="form-control" id="name" required>
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="name">Your Email</label>
-                                <input type="email" class="form-control" name="email" id="email" required>
+                                <input type="email" class="form-control" id="email" required>
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="name">Subject</label>
-                            <input type="text" class="form-control" name="subject" id="subject" required>
+                            <input type="text" class="form-control" id="subject" required>
                         </div>
                         <div class="form-group">
                             <label for="name">Message</label>
-                            <textarea class="form-control" name="message" rows="10" required></textarea>
+                            <textarea class="form-control" rows="10" id="message" required></textarea>
                         </div>
-                        <?php
-
-                        if(isset($_GET['mail'])){
-                            if($_GET['mail']==1){
-                                echo    '<div class="form-group">
-                                            <div class="bg-success p-2 rounded text-light">Your message has been sent. Thank you!</div>
-                                        </div>';
-                            }else{
-                                echo    '<div class="form-group">
-                                            <div class="bg-danger p-2 rounded text-light">Error, Please try again later. Thank you!</div>
-                                        </div>';
-                            }
-                        }
-                        ?>
+                        <!-- Message From Ajax -->
+                        <div class="form-group text-white text-center p-1 rounded" id="msg">
+                            &nbsp;
+                        </div>
                         <div class="text-center">
-                            <button type="submit">Send Message</button>
+                            <button type="submit" id="submit">Send Message</button>
                         </div>
-                    </form>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -441,17 +389,45 @@
 
     <!-- Custom JS -->
     <script src="assets/js/custom.js"></script>
-
-    <!-- Product function -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"
-        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    
+    <!-- Jquery -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
     <script>
-    function changeImage(element) {
-        var main_prodcut_image = document.getElementById('main_product_image');
-        main_prodcut_image.src = element.src;
-    }
-    </script>
+        $(document).ready(function(){
+            $('#submit').click(function(){
+                var name = $('#name').val();
+                var email = $('#email').val();
+                var subject = $('#subject').val();
+                var message = $('#message').val();
+                var submit = "true";
+                $('#msg').removeClass('bg-danger');
+                $('#msg').removeClass('bg-success');
+                $('#msg').addClass('bg-primary');
+                $('#msg').html('Sending, please wait a sec...');
 
+                //ajax code
+                $.ajax({
+                    type:"POST",
+                    url:"mail.php",
+                    data:{name:name,email:email,subject:subject,message:message,submit:submit},
+                    //if success
+                    success:function(data){
+                        //if success
+                        if(data=="success"){
+                            $('#msg').removeClass('bg-danger');
+                            $('#msg').addClass('bg-success');
+                            $('#msg').html('Message successfully sent.');
+                        }
+                        else if(data=="error"){
+                            $('#msg').removeClass('bg-success');
+                            $('#msg').addClass('bg-danger');
+                            $('#msg').html('Error, please try again later.');
+                        }
+                    }
+                })
+            })
+        })
+    </script>
 </body>
 
 </html>
