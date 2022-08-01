@@ -38,7 +38,7 @@
                         <label for="name">Address
                             <span class="text-danger"> (please include your city and country) *</span>
                         </label>
-                        <input type="text" class="form-control" id="address" placeholder="" required>
+                        <input type="text" class="form-control" id="address" required>
                     </div>
                     <div class="form-group">
                         <label for="name">Message
