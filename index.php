@@ -35,11 +35,14 @@
     <!-- New Added -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style2.css">
+
+    <!-- Jquery -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
 </head>
 
 <body>
     <!-- Header-->
-    <header id="header" class="fixed-top ">
+    <header id="header" class="fixed-top header-scrolled">
         <div class="container d-flex align-items-center">
             <h1 class="logo me-auto"><a href="index.php">CDF TRADING</a></h1>
             <nav id="navbar" class="navbar">
@@ -326,95 +329,6 @@
 
     <!-- Custom JS -->
     <script src="assets/js/custom.js"></script>
-
-    <!-- Jquery -->
-    <script src="assets/js/jquery-3.6.0.min.js"></script>
-
-    <script>
-    $(document).ready(function() {
-        $('#submit').click(function() {
-            var firstname = $('#firstname').val();
-            var lastname = $('#lastname').val();
-            var email = $('#email').val();
-            var number = $('#number').val();
-            var address = $('#address').val();
-            var message = $('#message').val();
-            var submit = "true";
-
-            if (typeof firstname === 'string' && firstname.length === 0) {
-                $('#msg').removeClass('bg-success');
-                $('#msg').removeClass('bg-primary');
-                $('#msg').addClass('bg-danger');
-                $('#msg').html('Please enter first name!');
-                return;
-            }
-            if (typeof lastname === 'string' && lastname.length === 0) {
-                $('#msg').removeClass('bg-success');
-                $('#msg').removeClass('bg-primary');
-                $('#msg').addClass('bg-danger');
-                $('#msg').html('Please enter last name!');
-                return;
-            }
-            if (typeof email === 'string' && email.length === 0) {
-                $('#msg').removeClass('bg-success');
-                $('#msg').removeClass('bg-primary');
-                $('#msg').addClass('bg-danger');
-                $('#msg').html('Please enter email! ');
-                return;
-            }
-            if (typeof number === 'string' && number.length === 0) {
-                $('#msg').removeClass('bg-success');
-                $('#msg').removeClass('bg-primary');
-                $('#msg').addClass('bg-danger');
-                $('#msg').html('Please enter Contact Number/Telephone!');
-                return;
-            }
-            if (typeof address === 'string' && address.length === 0) {
-                $('#msg').removeClass('bg-success');
-                $('#msg').removeClass('bg-primary');
-                $('#msg').addClass('bg-danger');
-                $('#msg').html('Please enter Address!');
-                return;
-            }
-            if (typeof message === 'string' && message.length === 0) {
-                $('#msg').removeClass('bg-success');
-                $('#msg').removeClass('bg-primary');
-                $('#msg').addClass('bg-danger');
-                $('#msg').html('Please enter a Message!');
-                return;
-            }
-
-            $('#msg').removeClass('bg-danger');
-            $('#msg').removeClass('bg-success');
-            $('#msg').addClass('bg-primary');
-            $('#msg').html('Sending, please wait a sec...');
-
-            $.ajax({
-                type: "POST",
-                url: "mail.php",
-                data: {
-                    firstname: firstname,
-                    lastname: lastname,
-                    email: email,
-                    number: number,
-                    address: address,
-                    message: message,
-                    submit: submit
-                },
-                success: function(data) {
-                    if (data == "success") {
-                        $('#msg').addClass('bg-success');
-                        $('#msg').html('Message successfully sent.');
-                    }
-                    if (data == "error") {
-                        $('#msg').addClass('bg-danger');
-                        $('#msg').html('Error, please try again later.');
-                    }
-                }
-            })
-        })
-    })
-    </script>
 
 </body>
 
