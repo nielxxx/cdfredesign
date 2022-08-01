@@ -1,6 +1,5 @@
 <?php
-    define('EMAIL', '');
-    define('PWD', '')
-    //if error occurs http://www.google.com/accounts/DisplayUnlockCaptcha
+    define('EMAIL', 'support@cdftradinginc.com');
+    define('PWD', 'CDFSupport@2022!')
 
 ?>

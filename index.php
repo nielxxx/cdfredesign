@@ -48,7 +48,8 @@
                     <li><a class="nav-link scrollto" href="index.php#about">About</a></li>
                     <li><a class="nav-link scrollto" href="index.php#services">Services</a></li>
                     <li><a class="nav-link scrollto" href="product.php#product">Product</a></li>
-                    <li><a class="nav-link scrollto" href="index.php#contact">Contact</a></li>
+                    <li><a class="nav-link scrollto" href="index.php#contact">Inquire</a></li>
+                    <li><a class="nav-link scrollto" href="index.php#footer">Contact</a></li>
                     <li><a class="getstarted scrollto" href="index.php#about">Get Started</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
@@ -75,8 +76,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
-                    <img class="img-fluid animated" id="image-changing" alt=""
-                        class="object" data-value="-10">
+                    <img class="img-fluid animated" id="image-changing" alt="" class="object" data-value="-10">
                 </div>
             </div>
         </div>
@@ -304,70 +304,7 @@
     </main>
 
     <!-- Contact -->
-    <section id="contact" class="contact">
-        <div class="container" data-aos="fade-up">
-            <div class="section-title">
-                <h2>Contact</h2>
-                <p>If you have any questions or queries we will be happy to help. Feel free to contact us by our email
-                    form down below or telephone number and we will be sure to get back to you as soon as possible </p>
-            </div>
-            <div class="row">
-                <div class="col-lg-5 d-flex align-items-stretch">
-                    <div class="info">
-                        <div class="address">
-                            <i class="bi bi-geo-alt"></i>
-                            <h4>Location:</h4>
-                            <p>Bay-2 12127 44th Street SE, Calgary, AB T2Z4H3</p>
-                        </div>
-                        <div class="email">
-                            <i class="bi bi-envelope"></i>
-                            <h4>Email:</h4>
-                            <p>info@cdftradinginc.com</p>
-                        </div>
-                        <div class="phone">
-                            <i class="bi bi-phone"></i>
-                            <h4>Call:</h4>
-                            <p>(825) 540-7207</p>
-                        </div>
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2514.0396657523575!2d-113.97385064850467!3d50.941479479445796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53717a19a9249117%3A0xcea2992710bff94b!2s44%20St%20SE%2C%20Calgary%2C%20AB%20T2Z%204H3%2C%20Canada!5e0!3m2!1sen!2sph!4v1658546413699!5m2!1sen!2sph"
-                            frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
-                    </div>
-                </div>
-                <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-
-                    <div class="php-email-form">
-                        <div class="row">
-                            <div class="form-group col-md-6">
-                                <label for="name">Your Name</label>
-                                <input type="text" class="form-control" id="name" required>
-                            </div>
-                            <div class="form-group col-md-6">
-                                <label for="name">Your Email</label>
-                                <input type="email" class="form-control" id="email" required>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="name">Subject</label>
-                            <input type="text" class="form-control" id="subject" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="name">Message</label>
-                            <textarea class="form-control" rows="10" id="message" required></textarea>
-                        </div>
-                        <!-- Message From Ajax -->
-                        <div class="form-group text-white text-center p-1 rounded" id="msg">
-                            &nbsp;
-                        </div>
-                        <div class="text-center">
-                            <button type="submit" id="submit">Send Message</button>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </section>
+    <?php include_once "contact.php"; ?>
 
     <!-- Footer -->
     <?php include_once "footer.php"; ?>
@@ -389,45 +326,96 @@
 
     <!-- Custom JS -->
     <script src="assets/js/custom.js"></script>
-    
+
     <!-- Jquery -->
     <script src="assets/js/jquery-3.6.0.min.js"></script>
-    <script>
-        $(document).ready(function(){
-            $('#submit').click(function(){
-                var name = $('#name').val();
-                var email = $('#email').val();
-                var subject = $('#subject').val();
-                var message = $('#message').val();
-                var submit = "true";
-                $('#msg').removeClass('bg-danger');
-                $('#msg').removeClass('bg-success');
-                $('#msg').addClass('bg-primary');
-                $('#msg').html('Sending, please wait a sec...');
 
-                //ajax code
-                $.ajax({
-                    type:"POST",
-                    url:"mail.php",
-                    data:{name:name,email:email,subject:subject,message:message,submit:submit},
-                    //if success
-                    success:function(data){
-                        //if success
-                        if(data=="success"){
-                            $('#msg').removeClass('bg-danger');
-                            $('#msg').addClass('bg-success');
-                            $('#msg').html('Message successfully sent.');
-                        }
-                        else if(data=="error"){
-                            $('#msg').removeClass('bg-success');
-                            $('#msg').addClass('bg-danger');
-                            $('#msg').html('Error, please try again later.');
-                        }
+    <script>
+    $(document).ready(function() {
+        $('#submit').click(function() {
+            var firstname = $('#firstname').val();
+            var lastname = $('#lastname').val();
+            var email = $('#email').val();
+            var number = $('#number').val();
+            var address = $('#address').val();
+            var message = $('#message').val();
+            var submit = "true";
+
+            if (typeof firstname === 'string' && firstname.length === 0) {
+                $('#msg').removeClass('bg-success');
+                $('#msg').removeClass('bg-primary');
+                $('#msg').addClass('bg-danger');
+                $('#msg').html('Please enter first name!');
+                return;
+            }
+            if (typeof lastname === 'string' && lastname.length === 0) {
+                $('#msg').removeClass('bg-success');
+                $('#msg').removeClass('bg-primary');
+                $('#msg').addClass('bg-danger');
+                $('#msg').html('Please enter last name!');
+                return;
+            }
+            if (typeof email === 'string' && email.length === 0) {
+                $('#msg').removeClass('bg-success');
+                $('#msg').removeClass('bg-primary');
+                $('#msg').addClass('bg-danger');
+                $('#msg').html('Please enter email! ');
+                return;
+            }
+            if (typeof number === 'string' && number.length === 0) {
+                $('#msg').removeClass('bg-success');
+                $('#msg').removeClass('bg-primary');
+                $('#msg').addClass('bg-danger');
+                $('#msg').html('Please enter Contact Number/Telephone!');
+                return;
+            }
+            if (typeof address === 'string' && address.length === 0) {
+                $('#msg').removeClass('bg-success');
+                $('#msg').removeClass('bg-primary');
+                $('#msg').addClass('bg-danger');
+                $('#msg').html('Please enter Address!');
+                return;
+            }
+            if (typeof message === 'string' && message.length === 0) {
+                $('#msg').removeClass('bg-success');
+                $('#msg').removeClass('bg-primary');
+                $('#msg').addClass('bg-danger');
+                $('#msg').html('Please enter a Message!');
+                return;
+            }
+
+            $('#msg').removeClass('bg-danger');
+            $('#msg').removeClass('bg-success');
+            $('#msg').addClass('bg-primary');
+            $('#msg').html('Sending, please wait a sec...');
+
+            $.ajax({
+                type: "POST",
+                url: "mail.php",
+                data: {
+                    firstname: firstname,
+                    lastname: lastname,
+                    email: email,
+                    number: number,
+                    address: address,
+                    message: message,
+                    submit: submit
+                },
+                success: function(data) {
+                    if (data == "success") {
+                        $('#msg').addClass('bg-success');
+                        $('#msg').html('Message successfully sent.');
                     }
-                })
+                    if (data == "error") {
+                        $('#msg').addClass('bg-danger');
+                        $('#msg').html('Error, please try again later.');
+                    }
+                }
             })
         })
+    })
     </script>
+
 </body>
 
 </html>
