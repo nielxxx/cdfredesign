@@ -68,10 +68,10 @@
             'n2'=>'Dangit Boneless','p2'=>'dangit-boneless(L)1',
             'n3'=>'Dilis','p3'=>'dilis(m)1',
             'n4'=>'Pusit','p4'=>'pusit(s)1',
-            'n5'=>'Tuyo','p5'=>'tuyo1',
+            'n5'=>'Tuyo','p5'=>'tuyo3',
             'n6'=>'Sapsap','p6'=>'sapsap1',
-            'n7'=>'Pusit Ballpen','p7'=>'pusit-ballpen(m)1',
-            'n8'=>'Srimp','p8'=>'shrimp',
+            'n7'=>'Pusit Ballpen','p7'=>'pusitballpen3',
+            'n8'=>'Srimp','p8'=>'shrimp2',
         ];
 
         $product = $_GET['product'];
@@ -79,7 +79,7 @@
             $productinfo = ['name'=>'Boneless Dilis',
                 'info'=>'Dried fish (dilis) are anchovies. Anchovies are dried for food. You can snack on cooked dilis or they can be an accompaniment to rice as part of a meal.'
             ];
-            $productpic = ['boneless-dilis(m)1','boneless-dilis(m)2','boneless-dilis(m)3'];
+            $productpic = ['boneless-dilis(m)1','boneless-dilis(m)2','boneless-dili5'];
         }
         if($product=='p2'){
             $productinfo = ['name'=>'Dangit Boneless',
@@ -103,7 +103,7 @@
             $productinfo = ['name'=>'Tuyo',
                 'info'=>'Tuyo fish is a type of Filipino sun dried fish. This is usually fried quickly and eaten with spicy vinegar dip and rice'
             ];
-            $productpic = ['tuyo1','tuyo2','tuyo3'];
+            $productpic = ['tuyo3','tuyo4','tuyo5'];
         }
         if($product=='p6'){
             $productinfo = ['name'=>'Sapsap',
@@ -115,13 +115,13 @@
             $productinfo = ['name'=>'Pusit Ballpen',
                 'info'=>'Tarurot/Dried Pusit Ballpen/Pusit Buo. -is sun dried WHOLE squid from Cebu. “Pusit buo” has not been gutted, so most of its ink is still inside ( thus, the “ballpen” moniker). If you favor dried squid with stronger squid “flavor”, this one is the dried product for you.'
             ];
-            $productpic = ['pusit-ballpen(m)1','pusit-ballpen(m)2'];
+            $productpic = ['pusitballpen3','pusit-ballpen(m)2'];
         }
         if($product=='p8'){
             $productinfo = ['name'=>'Srimp',
                 'info'=>'In the Philippines, dried shrimp is called hibi or hibe and is used like salt to season dishes as well as in soup bases such as misua.'
             ];
-            $productpic = ['shrimp','shrimp1'];
+            $productpic = ['shrimp','shrimp2','shrimp3'];
         }
     ?>
 
