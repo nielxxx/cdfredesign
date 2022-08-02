@@ -31,7 +31,7 @@
     </div>
     <div class="container footer-bottom clearfix ">
         <div class="copyright">
-            &copy; Copyright . All Rights Reserved . CDF TRADING . <span class="footer-cred"> <a href="http://">LGC IT Team </a></span>
+            &copy; Copyright . All Rights Reserved . CDF TRADING . <span class="footer-cred"> <a href="#">LGC IT Team </a></span>
         </div>
     </div>
 </footer>
