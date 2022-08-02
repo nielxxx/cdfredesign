@@ -84,7 +84,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>-->
 
     <main id="main">
 
