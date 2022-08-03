@@ -85,6 +85,93 @@
         </div>
     </section>
 
+    <div>
+        <section id="privacy" class="privacy fixed-top">
+            <div class="container" data-aos="fade-up">
+                <div class="section-title">
+                    <br>
+                    <br>
+                    <br>
+                    <h2>Privacy Policy</h2>
+                </div>
+                <div class="row content">
+                    <div class="col-lg-6">
+                        <p>
+                        <h6>This privacy policy ("policy") will help you understand how [name] ("us", "we", "our") uses
+                            and
+                            protects the data you provide to us when you visit and use [website] ("website", "service").
+                            We reserve the right to change this policy at any given time, of which you will be promptly
+                            updated. If you want to make sure that you are up to date with the latest changes, we advise
+                            you to frequently visit this page.</h6>
+                        <br>
+                        <h5>What User Data We Collect</h5>
+                        <br>
+                        <h6>When you visit the website, we may collect the following data</h6>
+                        </p>
+                        <ul>
+                            <li><i class="ri-check-double-line"></i>Your IP address.</li>
+                            <li><i class="ri-check-double-line"></i>Your contact information and email address.</li>
+                            <li><i class="ri-check-double-line"></i>Other information such as interests and preferences
+                            </li>
+                        </ul>
+
+                        <p>
+                            We will be sharing your personal information to our sisters company (Don-Mar International
+                            Consumer Goods Trading Inc & CanOtiental Cargo) for promotional purposes.
+                        </p>
+                        <br>
+                        <h5>Why We Collect Your Data</h5>
+                        <br>
+                        <h6>We are collecting your data for several reasons:</h6>
+
+                        <ul>
+                            <li><i class="ri-check-double-line"></i>To better understand your needs.</li>
+                            <li><i class="ri-check-double-line"></i>To improve our services and products</li>
+                            <li><i class="ri-check-double-line"></i>To contact you to fill out surveys and participate
+                                in
+                                other types of market research.</li>
+                        </ul>
+                        <br>
+                        <h5>Safeguarding and Securing the Data</h5>
+                        <p>CDF TRADING is committed to securing your data and keeping it confidential. LGC IT TEAM has
+                            done all in its power to prevent data theft, unauthorized access, and disclosure by
+                            implementing
+                            the latest technologies and software, which help us safeguard all the information we collect
+                            online</p>
+                        <br>
+
+                    </div>
+                    <div class="col-lg-6 pt-4 pt-lg-0">
+                        <br>
+                        <h5>Links to Other Websites</h5>
+                        <p>Our website contains links that lead to other websites. If you click on these links, [social
+                            media]
+                            is not held responsible for your data and privacy protection. Visiting those websites is not
+                            governed by this privacy policy agreement. Make sure to read the privacy policy
+                            documentation
+                            of the website you go to from our website.</p>
+
+                        <br>
+                        <h5>Restricting the Collection of your Personal Data</h5>
+                        <p>At some point, you might wish to restrict the use and collection of your personal data.
+                            If you have already agreed to share your information with us, feel free to contact us via
+                            email
+                            and we will be more than happy to change this for you.
+                            CDF TRADING will not lease, sell or distribute your personal information to any third
+                            parties,
+                            unless we have your permission. We might do so if the law forces us. Your personal
+                            information
+                            will be used when we need to send you promotional materials if you agree to this privacy
+                            policy.
+                        </p>
+
+                        <a href="index.php" class="btn-learn-more">Bact to Home</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
     <main id="main">
 
         <!-- About -->
@@ -304,13 +391,14 @@
                 </div>
             </div>
         </section>
+
+        <!-- Contact -->
+        <?php include_once "contact.php"; ?>
+
+        <!-- Footer -->
+        <?php include_once "footer.php"; ?>
+
     </main>
-
-    <!-- Contact -->
-    <?php include_once "contact.php"; ?>
-
-    <!-- Footer -->
-    <?php include_once "footer.php"; ?>
 
     <div id="preloader"></div>
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i

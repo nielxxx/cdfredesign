@@ -21,9 +21,9 @@
                         <!--<a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>-->
                     </div>
                     <br>
-                    <h4>Disclaimer</h4>
+                    <h4>Privacy Policy</h4>
                     <div class="social-links">
-                        <a href="privacypolicy.php" class="instagram"><i class="bi bi-exclamation-diamond-fill"></i></a>
+                        <span class="instagram" type="button" id="privacy-btn"><i class="bi bi-shield-fill-exclamation"></i></span>
                     </div>
                 </div>
             </div>

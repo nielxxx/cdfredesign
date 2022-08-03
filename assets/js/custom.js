@@ -1,3 +1,9 @@
+$('#submit').click(function() {
+    $('#privacy').removeClass('hide');
+})
+
+
+
 let image = document.getElementById('image-changing');
 let images = ['image1.png', 'image2.png', 'image3.png', 'image4.png', 'image5.png', 'image6.png', 'image7.png', 'image8.png'];
 setInterval(function() {
@@ -12,6 +18,11 @@ function validation(remove1, remove2, add, message) {
     $('#msg').html(message);
 }
 
+function validateEmail($email) {
+    var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+    return emailReg.test($email);
+}
+
 $(document).ready(function() {
     $('#submit').click(function() {
         var firstname = $('#firstname').val();
@@ -20,6 +31,7 @@ $(document).ready(function() {
         var number = $('#number').val();
         var address = $('#address').val();
         var message = $('#message').val();
+        var checkbox = $("#checkbox").is(":checked");
         var submit = "true";
 
         if (typeof firstname === 'string' && firstname.length === 0) {
@@ -34,6 +46,12 @@ $(document).ready(function() {
             validation('bg-success', 'bg-primary', 'bg-danger', 'Please enter Email!');
             return;
         }
+
+        if (!validateEmail(email)) {
+            validation('bg-success', 'bg-primary', 'bg-danger', 'Email is not valid!');
+            return;
+        }
+
         if (typeof number === 'string' && number.length === 0) {
             validation('bg-success', 'bg-primary', 'bg-danger', 'Please enter Contact Number/Telephone!');
             return;
@@ -44,6 +62,11 @@ $(document).ready(function() {
         }
         if (typeof message === 'string' && message.length === 0) {
             validation('bg-success', 'bg-primary', 'bg-danger', 'Please enter a Message!');
+            return;
+        }
+        if (checkbox != true) {
+            validation('bg-success', 'bg-primary', 'bg-danger', 'Please check the checkbox!');
+            console.log('not checked');
             return;
         }
 
@@ -66,7 +89,7 @@ $(document).ready(function() {
                     validation('bg-danger', 'bg-primary', 'bg-success', 'Message successfully sent.');
                 }
                 if (data == "error") {
-                    validation('bg-success', 'bg-primary', 'bg-danger', 'Message successfully sent.');
+                    validation('bg-success', 'bg-primary', 'bg-danger', 'Error, please try again later.');
                 }
             }
         })

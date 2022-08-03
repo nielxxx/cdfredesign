@@ -31,7 +31,7 @@
                             <label for="name">Contact Number / Telephone
                                 <span class="text-danger">*</span>
                             </label>
-                            <input type="email" class="form-control" id="number" required>
+                            <input type="text" class="form-control" id="number" required>
                         </div>
                     </div>
                     <div class="form-group">
@@ -45,6 +45,14 @@
                             <span class="text-danger">*</span>
                         </label>
                         <textarea class="form-control" rows="8" id="message" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <input type="checkbox" class="form-check-input" id="checkbox" required>
+                        <label class="form-check-label" for="checkbox"> &nbsp; By clicking the checkbox you agree to our
+                            privacy
+                            policy.
+                        </label>
+                        <a href="privacypolicy.php" class="instagram"><i class="bi bi-shield-fill-exclamation"></i></a>
                     </div>
                     <!-- Message From Ajax -->
                     <div class="form-group text-white text-center p-1 rounded" id="msg">

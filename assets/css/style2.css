@@ -1,3 +1,8 @@
+#privacy-policy {
+    position: absolute !important;
+    top: 0px;
+}
+
 .footer-cred {
     color: #73c5eb;
 }
@@ -368,3 +373,5 @@
     width: 150px;
     border-radius: 0px !important
 }
+
+;
