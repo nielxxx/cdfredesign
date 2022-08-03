@@ -89,9 +89,6 @@
         <section id="privacy" class="privacy fixed-top d-flex justify-content-center d-none">
             <div class="container" data-aos="fade-up">
                 <div class="section-title">
-                    <br>
-                    <br>
-                    <br>
                     <h2>Privacy Policy</h2>
                 </div>
                 <div class="row content">

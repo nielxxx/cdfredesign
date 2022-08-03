@@ -46,14 +46,11 @@
                         </label>
                         <textarea class="form-control" rows="8" id="message" required></textarea>
                     </div>
+                    <!-- Check box with ajay -->
                     <div class="form-group">
-                        <input type="checkbox" class="form-check-input p-2" id="checkbox" required> &nbsp; 
-                        <span class="privacy-policy-icon" type="button" id="privacy-btn-open">
-                            <h5><i class="bi bi-shield-fill-exclamation"></i></h5>
-                        </span>
-                        <label class="form-check-label" for="privacy-btn-open" type="button" id="privacy-btn-open-1"> &nbsp; By clicking the checkbox you agree to our privacy policy.
+                        <input type="checkbox" class="form-check-input p-2 cursor-pointer" id="checkbox" required>
+                        <label class="form-check-label mx-2" for="privacy-btn-open">You agree to the <span class="privacy-policy-color" type="button" id="privacy-btn-open-1">privacy policy</span>
                         </label>
-
                     </div>
                     <!-- Message From Ajax -->
                     <div class="form-group text-white text-center p-1 rounded" id="msg">

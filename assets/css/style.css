@@ -1574,6 +1574,10 @@ section {
     background: #209dd8;
 }
 
+.contact .privacy-policy-color {
+    color: #209dd8;
+}
+
 @-webkit-keyframes animate-loading {
     0% {
         transform: rotate(0deg);
@@ -1855,7 +1859,6 @@ section {
 }
 
 .privacy .container {
-    border-radius: 5px;
     padding: 50px;
     top: 10%;
     bottom: 10%;
