@@ -22,37 +22,38 @@
                             <input type="text" class="form-control" id="lastname" required>
                         </div>
                         <div class="form-group col-md-6">
-                            <label for="name">Email
+                            <label for="email">Email
                                 <span class="text-danger">*</span>
                             </label>
                             <input type="email" class="form-control" id="email" required>
                         </div>
                         <div class="form-group col-md-6">
-                            <label for="name">Contact Number / Telephone
+                            <label for="number">Contact Number / Telephone
                                 <span class="text-danger">*</span>
                             </label>
                             <input type="text" class="form-control" id="number" required>
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="name">Address
+                        <label for="address">Address
                             <span class="text-danger"> (please include your city and country) *</span>
                         </label>
                         <input type="text" class="form-control" id="address" required>
                     </div>
                     <div class="form-group">
-                        <label for="name">Message
+                        <label for="message">Message
                             <span class="text-danger">*</span>
                         </label>
                         <textarea class="form-control" rows="8" id="message" required></textarea>
                     </div>
                     <div class="form-group">
-                        <input type="checkbox" class="form-check-input" id="checkbox" required>
-                        <label class="form-check-label" for="checkbox"> &nbsp; By clicking the checkbox you agree to our
-                            privacy
-                            policy.
+                        <input type="checkbox" class="form-check-input p-2" id="checkbox" required> &nbsp; 
+                        <span class="privacy-policy-icon" type="button" id="privacy-btn-open">
+                            <h5><i class="bi bi-shield-fill-exclamation"></i></h5>
+                        </span>
+                        <label class="form-check-label" for="privacy-btn-open" type="button" id="privacy-btn-open-1"> &nbsp; By clicking the checkbox you agree to our privacy policy.
                         </label>
-                        <a href="privacypolicy.php" class="instagram"><i class="bi bi-shield-fill-exclamation"></i></a>
+
                     </div>
                     <!-- Message From Ajax -->
                     <div class="form-group text-white text-center p-1 rounded" id="msg">

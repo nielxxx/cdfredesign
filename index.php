@@ -86,7 +86,7 @@
     </section>
 
     <div>
-        <section id="privacy" class="privacy fixed-top">
+        <section id="privacy" class="privacy fixed-top d-flex justify-content-center d-none">
             <div class="container" data-aos="fade-up">
                 <div class="section-title">
                     <br>
@@ -165,7 +165,7 @@
                             policy.
                         </p>
 
-                        <a href="index.php" class="btn-learn-more">Bact to Home</a>
+                        <button class="btn-learn-more" id="privacy-btn-close">Close</button>
                     </div>
                 </div>
             </div>

@@ -1,5 +1,20 @@
-$('#submit').click(function() {
-    $('#privacy').removeClass('hide');
+$(document).ready(function() {
+    $('#privacy-btn-open').click(function() {
+        $('#privacy').addClass('d-none');
+        $('#privacy').removeClass('d-none');
+    })
+    $('#privacy-btn-open-1').click(function() {
+        $('#privacy').addClass('d-none');
+        $('#privacy').removeClass('d-none');
+    })
+    $('#privacy-btn-open-2').click(function() {
+        $('#privacy').addClass('d-none');
+        $('#privacy').removeClass('d-none');
+    })
+    $('#privacy-btn-close').click(function() {
+        $('#privacy').removeClass('d-none');
+        $('#privacy').addClass('d-none');
+    })
 })
 
 

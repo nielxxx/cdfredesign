@@ -23,7 +23,9 @@
                     <br>
                     <h4>Privacy Policy</h4>
                     <div class="social-links">
-                        <span class="instagram" type="button" id="privacy-btn"><i class="bi bi-shield-fill-exclamation"></i></span>
+                        <span class="privacy-policy-icon" type="button" id="privacy-btn-open-2">
+                            <i class="bi bi-shield-fill-exclamation"></i>
+                        </span>
                     </div>
                 </div>
             </div>
