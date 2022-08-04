@@ -10,6 +10,7 @@
         content="Starting as a small business in Calgary, Alberta, Canada of November 2020, we have big dreams. Our passion for DRIED FISH PRODUCTS, means that we provide our customers with nothing but the highest quality of products, that are guaranteed to meet their needs and keep them satisfied! With a motivated team."
         name="description">
     <meta content="DRIED FISH PRODUCTS" name="keywords">
+    <link rel="icon" type="image/png" href="assets/img/CDF-Icon.png" sizes="96x96" />
 
     <!-- Favicons -->
     <link href="assets/img/cdf_logo-removebg-preview.png" rel="icon">
