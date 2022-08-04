@@ -1,5 +1,0 @@
-DirectoryIndex index.php index.html
-
-RewriteEngine On 
-RewriteCond %{HTTPS} off 
-RewriteRule ^(.*)$ https://cdftradinginc.com [L,R=301]

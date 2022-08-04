@@ -103,6 +103,14 @@ $(document).ready(function() {
                 if (data == "success") {
                     validation('bg-danger', 'bg-primary', 'bg-success', 'Message successfully sent.');
                 }
+                $('#firstname').val('');
+                $('#lastname').val('');
+                $('#email').val('');
+                $('#number').val('');
+                $('#address').val('');
+                $('#message').val('');
+                $("#checkbox").is(!":checked");
+
                 if (data == "error") {
                     validation('bg-success', 'bg-primary', 'bg-danger', 'Error, please try again later.');
                 }
