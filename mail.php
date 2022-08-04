@@ -29,7 +29,7 @@
         <h4>Message: ".$message." </h4>";
 
         $mail->SetFrom(EMAIL,"CDFTRADINGINC.COM"); //from email
-        $mail->AddAddress('renzyjohnm1@gmail.com'); //reciever email 
+        $mail->AddAddress('info@cdftradinginc.com'); //reciever email 
         $mail->AddReplyTo($email); //senders email
 
         $mail->SMTPOptions=array('ssl'=>array(
