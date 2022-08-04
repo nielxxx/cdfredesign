@@ -45,7 +45,10 @@
     <!-- Header -->
     <header id="header" class="fixed-top header-scrolled">
         <div class="container d-flex align-items-center">
-            <h1 class="logo me-auto"><a href="index.php">CDF TRADING</a></h1>
+        <a href="#home" class="logo">
+        <img src="assets/img/CDF-Icon.png" height="80">
+        <h1 class="logo me-auto"><a href="index.php">CDF TRADING</a></h1>
+        </a>
             <nav id="navbar" class="navbar">
                 <ul>
                     <li><a class="nav-link scrollto " href="index.php">Home</a></li>
