@@ -12,8 +12,8 @@
     <meta content="DRIED FISH PRODUCTS" name="keywords">
 
     <!-- Favicons -->
-    <link href="assets/img/cdf_logo-removebg-preview.png" rel="icon">
-    <link href="assets/img/cdf_logo-removebg-preview.png" rel="apple-touch-icon">
+    <link href="assets/img/CDF-Icon.png" rel="icon">
+    <link href="assets/img/CDF-Icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
     <link
@@ -44,7 +44,11 @@
     <!-- Header-->
     <header id="header" class="fixed-top header-scrolled">
         <div class="container d-flex align-items-center">
-            <h1 class="logo me-auto"><a href="index.php">CDF TRADING</a></h1>
+        <a href="#home" class="logo">
+        <img src="assets/img/CDF-Icon.png" height="80">
+        <h1 class="logo me-auto"><a href="index.php">CDF TRADING</a></h1>
+        </a>
+           
             <nav id="navbar" class="navbar">
                 <ul>
                     <li><a class="nav-link scrollto active" href="index.php#hero">Home</a></li>
@@ -272,7 +276,7 @@
                         </div>
                     </div>
                     <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img"
-                        style='background-image: url("assets/img/cdf_logo-removebg-preview.png");' data-aos="zoom-in"
+                        style='background-image: url("assets/img/CDF-Logo2.png");' data-aos="zoom-in"
                         data-aos-delay="150">&nbsp;</div>
                 </div>
             </div>
