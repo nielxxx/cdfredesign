@@ -29,7 +29,7 @@
     <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-    <!-- Template Main CSS File -->
+    <!-- Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
 
     <!-- New Added -->
@@ -409,7 +409,7 @@
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
     <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
 
-    <!-- Template Main JS File -->
+    <!-- Main JS File -->
     <script src="assets/js/main.js"></script>
 
     <!-- Custom JS -->

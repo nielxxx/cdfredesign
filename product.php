@@ -38,6 +38,7 @@
 
     <!-- Jquery -->
     <script src="assets/js/jquery-3.6.0.min.js"></script>
+
 </head>
 
 <body>
@@ -125,53 +126,139 @@
         }
     ?>
 
+    <div>
+        <!-- Privacy Policy -->
+        <section id="privacy" class="privacy fixed-top d-flex justify-content-center d-none">
+            <div class="container" data-aos="fade-up">
+                <div class="section-title">
+                    <h2>Privacy Policy</h2>
+                </div>
+                <div class="row content">
+                    <div class="col-lg-6">
+                        <p>
+                        <h6>This privacy policy ("policy") will help you understand how [name] ("us", "we", "our") uses
+                            and
+                            protects the data you provide to us when you visit and use [website] ("website", "service").
+                            We reserve the right to change this policy at any given time, of which you will be promptly
+                            updated. If you want to make sure that you are up to date with the latest changes, we advise
+                            you to frequently visit this page.</h6>
+                        <br>
+                        <h5>What User Data We Collect</h5>
+                        <br>
+                        <h6>When you visit the website, we may collect the following data</h6>
+                        </p>
+                        <ul>
+                            <li><i class="ri-check-double-line"></i>Your IP address.</li>
+                            <li><i class="ri-check-double-line"></i>Your contact information and email address.</li>
+                            <li><i class="ri-check-double-line"></i>Other information such as interests and preferences
+                            </li>
+                        </ul>
+
+                        <p>
+                            We will be sharing your personal information to our sisters company (Don-Mar International
+                            Consumer Goods Trading Inc & CanOtiental Cargo) for promotional purposes.
+                        </p>
+                        <br>
+                        <h5>Why We Collect Your Data</h5>
+                        <br>
+                        <h6>We are collecting your data for several reasons:</h6>
+
+                        <ul>
+                            <li><i class="ri-check-double-line"></i>To better understand your needs.</li>
+                            <li><i class="ri-check-double-line"></i>To improve our services and products</li>
+                            <li><i class="ri-check-double-line"></i>To contact you to fill out surveys and participate
+                                in
+                                other types of market research.</li>
+                        </ul>
+                        <br>
+                        <h5>Safeguarding and Securing the Data</h5>
+                        <p>CDF TRADING is committed to securing your data and keeping it confidential. LGC IT TEAM has
+                            done all in its power to prevent data theft, unauthorized access, and disclosure by
+                            implementing
+                            the latest technologies and software, which help us safeguard all the information we collect
+                            online</p>
+                        <br>
+
+                    </div>
+                    <div class="col-lg-6 pt-4 pt-lg-0">
+                        <br>
+                        <h5>Links to Other Websites</h5>
+                        <p>Our website contains links that lead to other websites. If you click on these links, [social
+                            media]
+                            is not held responsible for your data and privacy protection. Visiting those websites is not
+                            governed by this privacy policy agreement. Make sure to read the privacy policy
+                            documentation
+                            of the website you go to from our website.</p>
+
+                        <br>
+                        <h5>Restricting the Collection of your Personal Data</h5>
+                        <p>At some point, you might wish to restrict the use and collection of your personal data.
+                            If you have already agreed to share your information with us, feel free to contact us via
+                            email
+                            and we will be more than happy to change this for you.
+                            CDF TRADING will not lease, sell or distribute your personal information to any third
+                            parties,
+                            unless we have your permission. We might do so if the law forces us. Your personal
+                            information
+                            will be used when we need to send you promotional materials if you agree to this privacy
+                            policy.
+                        </p>
+
+                        <button class="btn-learn-more" id="privacy-btn-close">Close</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
     <!-- Product -->
-    <main id="product" class="product">
-        <section class="p-4"></section>
-        <div class="container mt-5 mb-5" data-aos="fade-up">
-            <div class="card">
-                <div class="row g-0">
-                    <div class="col-md-6 border-end">
-                        <div class="d-flex flex-column justify-content-center">
-                            <div class="main_image">
-                                <?php
+    <main>
+        <div id="product" class="product">
+            <section class="p-4"></section>
+            <div class="container mt-5 mb-5" data-aos="fade-up">
+                <div class="card">
+                    <div class="row g-0">
+                        <div class="col-md-6 border-end">
+                            <div class="d-flex flex-column justify-content-center">
+                                <div class="main_image">
+                                    <?php
                                     echo '<img src="assets/img/products/'.$productpic[0].'.jpg" id="main_product_image"
                                         width="350">'
                                 ?>
-                            </div>
-                            <div class="thumbnail_images">
-                                <ul id="thumbnail">
-                                    <?php
+                                </div>
+                                <div class="thumbnail_images">
+                                    <ul id="thumbnail">
+                                        <?php
                                         foreach ($productpic as $value) {
                                             echo '<li><img onclick="changeImage(this)" src="assets/img/products/'.$value.'.jpg"
                                             width="70"></li>';
                                         }
                                     ?>
-                                </ul>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="p-3 right-side mt-2">
-                            <div class="d-flex justify-content-between align-items-center">
-                                <h3><?php echo $productinfo['name']; ?></h3>
-                            </div>
-                            <div class="mt-2 pr-3 content">
-                                <h6><?php echo $productinfo['info']; ?></h6>
-                            </div>
-                            <div class="buttons d-flex flex-row mt-5 gap-3">
-                                <a href="#contact" type="button" class="btn btn-inquire pt-2">Inquire</a>
+                        <div class="col-md-6">
+                            <div class="p-3 right-side mt-2">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <h3><?php echo $productinfo['name']; ?></h3>
+                                </div>
+                                <div class="mt-2 pr-3 content">
+                                    <h6><?php echo $productinfo['info']; ?></h6>
+                                </div>
+                                <div class="buttons d-flex flex-row mt-5 gap-3">
+                                    <a href="#contact" type="button" class="btn btn-inquire pt-2">Inquire</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="mt-4 mb-4" data-aos="fade-up">
-                <div class="card p-4">
-                    <h4>Other Products</h4>
-                    <div class="row no-gutters similar-products d-flex flex-row">
-                        <?php
+                <div class="mt-4 mb-4" data-aos="fade-up">
+                    <div class="card p-4">
+                        <h4>Other Products</h4>
+                        <div class="row no-gutters similar-products d-flex flex-row">
+                            <?php
                             function other_product($p1,$n1,$link){
                                 echo    '<a href="product.php?product='.$link.'" class="col-lg-2 col-md-3 col-sm-4 col-6 p-2">
                                             <div class="card border p-1 m-2" style="width: 9rem;margin-right: 3px;"> 
@@ -208,21 +295,21 @@
                                 other_product($other_product_info['p8'],$other_product_info['n8'],'p8');
                                 }
                         ?>
+                        </div>
                     </div>
                 </div>
             </div>
+            <!-- Space -->
+        <section class="p-4"></section>
         </div>
 
-        <!-- Space -->
-        <section class="p-4"></section>
+        <!-- Contact -->
+        <?php include_once "contact.php"; ?>
+
+        <!-- Footer -->
+        <?php include_once "footer.php"; ?>
 
     </main>
-
-    <!-- Contact -->
-    <?php include_once "contact.php"; ?>
-
-    <!-- Footer -->
-    <?php include_once "footer.php"; ?>
 
     <div id="preloader"></div>
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
@@ -237,7 +324,7 @@
     <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
     <script src="assets/vendor/php-email-form/validate.js"></script>
 
-    <!-- Template Main JS File -->
+    <!-- Main JS File -->
     <script src="assets/js/main.js"></script>
 
     <!-- Product function -->
@@ -246,95 +333,6 @@
         var main_prodcut_image = document.getElementById('main_product_image');
         main_prodcut_image.src = element.src;
     }
-    </script>
-
-    <!-- Jquery -->
-    <script src="assets/js/jquery-3.6.0.min.js"></script>
-
-    <script>
-    $(document).ready(function() {
-        $('#submit').click(function() {
-            var firstname = $('#firstname').val();
-            var lastname = $('#lastname').val();
-            var email = $('#email').val();
-            var number = $('#number').val();
-            var address = $('#address').val();
-            var message = $('#message').val();
-            var submit = "true";
-
-            if (typeof firstname === 'string' && firstname.length === 0) {
-                $('#msg').removeClass('bg-success');
-                $('#msg').removeClass('bg-primary');
-                $('#msg').addClass('bg-danger');
-                $('#msg').html('Please enter first name!');
-                return;
-            }
-            if (typeof lastname === 'string' && lastname.length === 0) {
-                $('#msg').removeClass('bg-success');
-                $('#msg').removeClass('bg-primary');
-                $('#msg').addClass('bg-danger');
-                $('#msg').html('Please enter last name!');
-                return;
-            }
-            if (typeof email === 'string' && email.length === 0) {
-                $('#msg').removeClass('bg-success');
-                $('#msg').removeClass('bg-primary');
-                $('#msg').addClass('bg-danger');
-                $('#msg').html('Please enter email! ');
-                return;
-            }
-            if (typeof number === 'string' && number.length === 0) {
-                $('#msg').removeClass('bg-success');
-                $('#msg').removeClass('bg-primary');
-                $('#msg').addClass('bg-danger');
-                $('#msg').html('Please enter Contact Number/Telephone!');
-                return;
-            }
-            if (typeof address === 'string' && address.length === 0) {
-                $('#msg').removeClass('bg-success');
-                $('#msg').removeClass('bg-primary');
-                $('#msg').addClass('bg-danger');
-                $('#msg').html('Please enter Address!');
-                return;
-            }
-            if (typeof message === 'string' && message.length === 0) {
-                $('#msg').removeClass('bg-success');
-                $('#msg').removeClass('bg-primary');
-                $('#msg').addClass('bg-danger');
-                $('#msg').html('Please enter a Message!');
-                return;
-            }
-
-            $('#msg').removeClass('bg-danger');
-            $('#msg').removeClass('bg-success');
-            $('#msg').addClass('bg-primary');
-            $('#msg').html('Sending, please wait a sec...');
-
-            $.ajax({
-                type: "POST",
-                url: "mail.php",
-                data: {
-                    firstname: firstname,
-                    lastname: lastname,
-                    email: email,
-                    number: number,
-                    address: address,
-                    message: message,
-                    submit: submit
-                },
-                success: function(data) {
-                    if (data == "success") {
-                        $('#msg').addClass('bg-success');
-                        $('#msg').html('Message successfully sent.');
-                    }
-                    if (data == "error") {
-                        $('#msg').addClass('bg-danger');
-                        $('#msg').html('Error, please try again later.');
-                    }
-                }
-            })
-        })
-    })
     </script>
 
     <!-- Custom JS -->

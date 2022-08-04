@@ -18,8 +18,8 @@
         $mail->Port = 587; //port
         $mail->IsHTML(true);
         $mail->CharSet = 'UTF-8';
-        $mail->Username = EMAIL; //transmitter email
-        $mail->Password = PWD; //transmitter pass
+        $mail->Username = EMAIL;
+        $mail->Password = PWD;
         $mail->Subject = "Inquire";
         $mail->Body = 
         "<h4>Full Name: ".$firstname." ".$lastname."</h4>
