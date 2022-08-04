@@ -109,7 +109,7 @@ $(document).ready(function() {
                 $('#number').val('');
                 $('#address').val('');
                 $('#message').val('');
-                $("#checkbox").is(!":checked");
+                $("#checkbox").prop("checked", false);
 
                 if (data == "error") {
                     validation('bg-success', 'bg-primary', 'bg-danger', 'Error, please try again later.');
