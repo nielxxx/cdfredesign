@@ -420,6 +420,9 @@
     <!-- Custom JS -->
     <script src="assets/js/custom.js"></script>
 
+    <!-- Index JS -->
+    <script src="assets/js/index.js"></script>
+
 </body>
 
 </html>
