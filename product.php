@@ -124,7 +124,7 @@
                 right dryness, packed and vacuum sealed to preserve and stored in cool dry place.
                 '
             ];
-            $productpic = ['dilis(m)1','dilis(m)2','dilis(s)1'];
+            $productpic = ['dilis(m)1','dilis(m)2','dilis(s)last'];
         }
         if($product=='p4'){
             $productinfo = ['name'=>'Pusit',
@@ -172,7 +172,7 @@
                 and then sun and air-dried. There are also "boneless" versions which fillets the fish before the drying process.
                 '
             ];
-            $productpic = ['sapsap1','sapsap2','sapsap4'];
+            $productpic = ['sapsap1','sapsap2','sapsap5'];
         }
         if($product=='p7'){
             $productinfo = ['name'=>'Pusit Ballpen',
@@ -187,7 +187,7 @@
                 turned over to be dry evenly, packed and vacuum sealed to be preserved, stored and cool in dry place.
                 '
             ];
-            $productpic = ['pusitballpen3','pusit-ballpen(m)2'];
+            $productpic = ['pusitballpen3','pusitballpen2'];
         }
         if($product=='p8'){
             $productinfo = ['name'=>'Srimp',
