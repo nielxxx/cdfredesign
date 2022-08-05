@@ -10,7 +10,7 @@
         content="Starting as a small business in Calgary, Alberta, Canada of November 2020, we have big dreams. Our passion for DRIED FISH PRODUCTS, means that we provide our customers with nothing but the highest quality of products, that are guaranteed to meet their needs and keep them satisfied! With a motivated team."
         name="description">
     <meta content="DRIED FISH PRODUCTS" name="keywords">
-    <link rel="icon" type="image/png" href="assets/img/CDF-Icon.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="assets/img/Icon-bg.png" sizes="96x96" />
 
     <!-- Favicons -->
     <link href="assets/img/cdf_logo-removebg-preview.png" rel="icon">
@@ -46,10 +46,10 @@
     <!-- Header -->
     <header id="header" class="fixed-top header-scrolled">
         <div class="container d-flex align-items-center">
-        <a href="#home" class="logo">
-        <img src="assets/img/CDF-Icon.png" height="80">
-        <h1 class="logo me-auto"><a href="index.php">CDF TRADING</a></h1>
-        </a>
+            <a href="#home" class="logo">
+                <img src="assets/img/CDF-Icon.png" height="80">
+                <h1 class="logo me-auto"><a href="index.php">CDF TRADING</a></h1>
+            </a>
             <nav id="navbar" class="navbar">
                 <ul>
                     <li><a class="nav-link scrollto " href="index.php">Home</a></li>
@@ -378,7 +378,7 @@
                 </div>
             </div>
             <!-- Space -->
-        <section class="p-4"></section>
+            <section class="p-4"></section>
         </div>
 
         <!-- Contact -->
