@@ -82,49 +82,123 @@
         $product = $_GET['product'];
         if($product=='p1'){
             $productinfo = ['name'=>'Boneless Dilis',
-                'info'=>'Dried fish (dilis) are anchovies. Anchovies are dried for food. You can snack on cooked dilis or they can be an accompaniment to rice as part of a meal.'
+                'info'=>
+                'Discription<br><br>
+                Boneless dilis /bon-les di-lis/ Tagalog dried fish) [n.] deboned anchovies. Dilis or anchovies are small 
+                blue fish that abound in the Mediterranean Sea and the Pacific, Indian and Atlantic oceans. Dilis are between 
+                1 and 15 inches (3 and 40 cm) long and there are about 144 species worldwide. What is this? They are abundantly present in the Philippine waters.
+                <br><br>
+                Process
+                <br><br>
+                The dilis (anchovies) are decapitated, butterflied and deboned of its backbone,
+                then soaked in brine solution, drained, and sundried to become dried boneless dilis, packed and vacuum sealed to preserve and stored in cool dry place.
+                '
             ];
             $productpic = ['boneless-dilis(m)1','boneless-dilis(m)2','boneless-dili5'];
         }
         if($product=='p2'){
             $productinfo = ['name'=>'Dangit Boneless',
-                'info'=>'Cebu is known for its danggit (“dang-git”)—salted, sun-dried rabbitfish (aka spinefoot), which is abundant and native to the islands shallower waters. The fish are split open, cleaned, salted, and spread out on drying racks under the sun.'
+                'info'=>
+                'Discription<br><br>
+                It’s a local Philippine favorite viand made from dried rabbitfish or spinefoot.
+                It has been a popular and is well known as a product of Cebu. Usually fried to crisp and often consumed and dipped in vinegar.
+                <br><br>
+                Process
+                <br><br>
+                Clean the fish, butterfly cut, deboning and wash water with salt.
+                Distribute it evenly on the drying trays, sundried and flip over to evenly dried, packed and vacuum sealed to preserved and stored in a cool dry place.
+                '
             ];
             $productpic = ['dangit-boneless(L)1','dangit-boneless(m)1','dangit-boneless(s)1'];
         }
         if($product=='p3'){
             $productinfo = ['name'=>'Dilis',
-                'info'=>'Dilis is also known as anchovies. Health benefits of anchovies include healthy heart, skin care, weight loss, as well as healthy bones and teeth.'
+                'info'=>
+                'Discription<br><br>
+                Dilis tend to be quite salty. They are often used in salads, meat dishes, as well as sauces.
+                In the Philippines they can be bought fresh, dried, as a paste (bagoong), or in fish sauce such as patis.
+                <br><br>
+                Process
+                <br><br>
+                For whole dried anchovies, rinse water with salt, fish is soaked in brine if necessary and then sundried to achieve the
+                right dryness, packed and vacuum sealed to preserve and stored in cool dry place.
+                '
             ];
             $productpic = ['dilis(m)1','dilis(m)2','dilis(s)1'];
         }
         if($product=='p4'){
             $productinfo = ['name'=>'Pusit',
-                'info'=>'Pusit is a dried squid where many local Filipinos love to eat because of the soft, chewy texture and taste.'
+                'info'=>
+                'Discription<br><br>
+                Pusit is a dried squid where many local Filipinos love to eat because of the soft, chewy texture and taste. It is very tasteful and is also best eaten during breakfast.
+                <br><br>
+                Process
+                <br><br>
+                Wash the squid thoroughly. Split and remove internal organs. Spread washed squids on the drying trays, sun dried and 
+                turn over once or twice a day to attain uniform dryness. Packed and vacuum sealed to preserve, stored in cool dry place.
+                '
             ];
             $productpic = ['pusit(s)1','pusit(s)3','pusit(s)8'];
         }
         if($product=='p5'){
             $productinfo = ['name'=>'Tuyo',
-                'info'=>'Tuyo fish is a type of Filipino sun dried fish. This is usually fried quickly and eaten with spicy vinegar dip and rice'
+                'info'=>
+                'Discription<br><br>
+                Tuyo refers to salted dried fish (usually herring); this is also known as stockfish in some countries. 
+                In the Philippines, tuyo is considered as a poor man’s food because of its cheap price – however, this 
+                connotation has been expunged over the years since people of different social status learned to love and enjoy it
+                <br><br>
+                Process
+                <br><br>
+                Daing, tuyo, or bilad (literally "sun-dried" or "sun-baked") are dried fish from the Philippines. 
+                Fish prepared as daing are usually split open (though they may be left whole), gutted, salted liberally,
+                and then sun and air-dried. There are also "boneless" versions which fillets the fish before the drying process.
+                '
             ];
             $productpic = ['tuyo3','tuyo4','tuyo5'];
         }
         if($product=='p6'){
             $productinfo = ['name'=>'Sapsap',
-                'info'=>'We serve to bring you the best of Cebu has to offer. Our Sapsap (Dried Ponyfish) are prepared by using traditional drying techniques.'
+                'info'=>
+                'Discription<br><br>
+                The Common Pony fish is silvery with a brown saddle on the caudal peduncle. 
+                It has faint bars on the back and sometimes a dark blotch on the forehead. 
+                The anal fin is yellowish. Like all species in the genus Leiognathus, the Common Pony fish can extend its mouth into a downward pointing tube.
+                <br><br>
+                Process
+                <br><br>
+                Daing, tuyo, or bilad (literally "sun-dried" or "sun-baked") are dried fish from the Philippines. 
+                Fish prepared as daing are usually split open (though they may be left whole), gutted, salted liberally,
+                and then sun and air-dried. There are also "boneless" versions which fillets the fish before the drying process.
+                '
             ];
             $productpic = ['sapsap1','sapsap2','sapsap4'];
         }
         if($product=='p7'){
             $productinfo = ['name'=>'Pusit Ballpen',
-                'info'=>'Tarurot/Dried Pusit Ballpen/Pusit Buo. -is sun dried WHOLE squid from Cebu. “Pusit buo” has not been gutted, so most of its ink is still inside ( thus, the “ballpen” moniker). If you favor dried squid with stronger squid “flavor”, this one is the dried product for you.'
+                'info'=>
+                'Discription<br><br>
+                Dried pusit is a favorite Filipino breakfast staple, best served with fried garlic rice, an egg thats either 
+                sunny side up or scrambled, vinegar with chilis as a dip, and a warm cup of coffee.
+                <br><br>
+                Process
+                <br><br>
+                Clean the whole pusit entirely, wash water with salt, arrange it on the drying tray to be sundried, 
+                turned over to be dry evenly, packed and vacuum sealed to be preserved, stored and cool in dry place.
+                '
             ];
             $productpic = ['pusitballpen3','pusit-ballpen(m)2'];
         }
         if($product=='p8'){
             $productinfo = ['name'=>'Srimp',
-                'info'=>'In the Philippines, dried shrimp is called hibi or hibe and is used like salt to season dishes as well as in soup bases such as misua.'
+                'info'=>
+                'Discription<br><br>
+                Dried hibi rich source of carotenoids, including astaxanthin, that will bring out the colors in both marine and freshwater fish. Proper handling and drying keeps natural flavourants, proteins and lipids largely intact.
+                <br><br>
+                Process
+                <br><br>
+                Clean the shrimp totally, wash water with salt, scattered equally on the drying trays, sundried to achieve the desired dryness, packed and vacuum sealed, stored in cool dry place.
+                '
             ];
             $productpic = ['shrimp','shrimp2','shrimp3'];
         }
