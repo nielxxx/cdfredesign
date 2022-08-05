@@ -197,18 +197,27 @@
 
 .thumbnail_images ul {
     list-style: none;
-    justify-content: center;
     display: flex;
     align-items: center;
-    margin-top: 10px
+    justify-content: center;
+}
+
+@media (max-width: 400px) {
+    .thumbnail_images ul {
+        justify-content: left;
+    }
 }
 
 .thumbnail_images ul li {
     margin: 5px;
-    padding: 10px;
     border: 2px solid #eee;
     cursor: pointer;
-    transition: all 0.5s
+    transition: all 0.5s;
+    border-radius: 2px;
+}
+
+.thumbnail_images ul li img {
+    border-radius: 2px;
 }
 
 .thumbnail_images ul li:hover {
@@ -219,10 +228,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: 1px solid #eee;
-    height: 400px;
     width: 100%;
-    overflow: hidden
+    overflow: hidden;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.main_image img {
+    border-radius: 5px;
 }
 
 .heart {
@@ -368,5 +381,3 @@
     width: 150px;
     border-radius: 0px !important
 }
-
-;
