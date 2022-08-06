@@ -296,7 +296,7 @@
             <div class="container mt-5 mb-5" data-aos="fade-up">
                 <div class="card">
                     <div class="row g-0">
-                        <div class="col-md-6 border-end">
+                        <div class="col-lg-6 col-md-12 col-12 border-end">
                             <div class="d-flex flex-column justify-content-center">
                                 <div class="main_image">
                                     <?php
@@ -316,7 +316,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-lg-6 col-md-12 col-12">
                             <div class="p-3 right-side mt-2">
                                 <div class="d-flex justify-content-between align-items-center">
                                     <h3><?php echo $productinfo['name']; ?></h3>
