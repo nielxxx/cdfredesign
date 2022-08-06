@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>CDF Trading</title>
+    <title>CDF Trading Inc</title>
     <meta
         content="Starting as a small business in Calgary, Alberta, Canada of November 2020, we have big dreams. Our passion for DRIED FISH PRODUCTS, means that we provide our customers with nothing but the highest quality of products, that are guaranteed to meet their needs and keep them satisfied! With a motivated team."
         name="description">
@@ -48,7 +48,7 @@
         <div class="container d-flex align-items-center">
             <a href="#home" class="logo">
                 <img src="assets/img/CDF-Icon.png" height="80">
-                <h1 class="logo me-auto"><a href="index.php">CDF TRADING</a></h1>
+                <h1 class="logo me-auto"><a href="index.php">CDF TRADING INC.</a></h1>
             </a>
             <nav id="navbar" class="navbar">
                 <ul>
@@ -72,16 +72,16 @@
             'n1'=>'Boneless Dilis','p1'=>'boneless-dilis(m)1',
             'n2'=>'Dangit Boneless','p2'=>'dangit-boneless(L)1',
             'n3'=>'Dilis','p3'=>'dilis(m)1',
-            'n4'=>'Pusit','p4'=>'pusit(s)1',
+            'n4'=>'Pusit','p4'=>'pusit(s)3',
             'n5'=>'Tuyo','p5'=>'tuyo3',
             'n6'=>'Sapsap','p6'=>'sapsap1',
             'n7'=>'Pusit Ballpen','p7'=>'pusitballpen3',
-            'n8'=>'Srimp','p8'=>'shrimp2',
+            'n8'=>'Shrimp','p8'=>'shrimp2',
         ];
 
         $product = $_GET['product'];
         if($product=='p1'){
-            $productinfo = ['name'=>'Boneless Dilis',
+            $productinfo = ['name'=>'Boneless Dilis or Anchovy',
                 'info'=>
                 'Discription<br><br>
                 Boneless dilis /bon-les di-lis/ Tagalog dried fish) [n.] deboned anchovies. Dilis or anchovies are small 
@@ -97,7 +97,7 @@
             $productpic = ['boneless-dilis(m)1','boneless-dilis(m)2','boneless-dili5'];
         }
         if($product=='p2'){
-            $productinfo = ['name'=>'Dangit Boneless',
+            $productinfo = ['name'=>'Dangit Boneless or Rabbit Fish',
                 'info'=>
                 'Discription<br><br>
                 It’s a local Philippine favorite viand made from dried rabbitfish or spinefoot.
@@ -109,10 +109,10 @@
                 Distribute it evenly on the drying trays, sundried and flip over to evenly dried, packed and vacuum sealed to preserved and stored in a cool dry place.
                 '
             ];
-            $productpic = ['dangit-boneless(L)1','dangit-boneless(m)1','dangit-boneless(s)1'];
+            $productpic = ['dangit-boneless(L)1','dangit-boneless(m)1','danggit2'];
         }
         if($product=='p3'){
-            $productinfo = ['name'=>'Dilis',
+            $productinfo = ['name'=>'Dried Dilis or Anchovy',
                 'info'=>
                 'Discription<br><br>
                 Dilis tend to be quite salty. They are often used in salads, meat dishes, as well as sauces.
@@ -127,7 +127,7 @@
             $productpic = ['dilis(m)1','dilis(m)2','dilis(s)last'];
         }
         if($product=='p4'){
-            $productinfo = ['name'=>'Pusit',
+            $productinfo = ['name'=>'Dried Pusit or Squid',
                 'info'=>
                 'Discription<br><br>
                 Pusit is a dried squid where many local Filipinos love to eat because of the soft, chewy texture and taste. It is very tasteful and is also best eaten during breakfast.
@@ -138,10 +138,10 @@
                 turn over once or twice a day to attain uniform dryness. Packed and vacuum sealed to preserve, stored in cool dry place.
                 '
             ];
-            $productpic = ['pusit(s)1','pusit(s)3','pusit(s)8'];
+            $productpic = ['pusit(s)1','pusit(s)3','pusit9'];
         }
         if($product=='p5'){
-            $productinfo = ['name'=>'Tuyo',
+            $productinfo = ['name'=>'Tuyo or Salted Dried Fish',
                 'info'=>
                 'Discription<br><br>
                 Tuyo refers to salted dried fish (usually herring); this is also known as stockfish in some countries. 
@@ -158,7 +158,7 @@
             $productpic = ['tuyo3','tuyo4','tuyo5'];
         }
         if($product=='p6'){
-            $productinfo = ['name'=>'Sapsap',
+            $productinfo = ['name'=>'Dried Sapsap or Slipmouth Fish',
                 'info'=>
                 'Discription<br><br>
                 The Common Pony fish is silvery with a brown saddle on the caudal peduncle. 
@@ -175,7 +175,7 @@
             $productpic = ['sapsap1','sapsap2','sapsap5'];
         }
         if($product=='p7'){
-            $productinfo = ['name'=>'Pusit Ballpen',
+            $productinfo = ['name'=>'Pusit Ballpen or Squid',
                 'info'=>
                 'Discription<br><br>
                 Dried pusit is a favorite Filipino breakfast staple, best served with fried garlic rice, an egg thats either 
@@ -190,7 +190,7 @@
             $productpic = ['pusitballpen3','pusitballpen2'];
         }
         if($product=='p8'){
-            $productinfo = ['name'=>'Srimp',
+            $productinfo = ['name'=>'Shrimp or Hibi',
                 'info'=>
                 'Discription<br><br>
                 Dried hibi rich source of carotenoids, including astaxanthin, that will bring out the colors in both marine and freshwater fish. Proper handling and drying keeps natural flavourants, proteins and lipids largely intact.

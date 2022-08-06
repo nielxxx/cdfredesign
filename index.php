@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>CDF Trading</title>
+    <title>CDF Trading Inc</title>
     <meta
         content="Starting as a small business in Calgary, Alberta, Canada of November 2020, we have big dreams. Our passion for DRIED FISH PRODUCTS, means that we provide our customers with nothing but the highest quality of products, that are guaranteed to meet their needs and keep them satisfied! With a motivated team."
         name="description">
@@ -47,7 +47,7 @@
         <div class="container d-flex align-items-center">
         <a href="#home" class="logo">
         <img src="assets/img/CDF-Icon.png" height="80">
-        <h1 class="logo me-auto"><a href="index.php">CDF TRADING</a></h1>
+        <h1 class="logo me-auto"><a href="index.php">CDF TRADING INC.</a></h1>
         </a>
            
             <nav id="navbar" class="navbar">
@@ -72,7 +72,7 @@
             <div class="row">
                 <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pb-4 pt-lg-0 order-2 order-lg-1"
                     data-aos="fade-up" data-aos-delay="200">
-                    <h1>Welcome to CDF Trading</h1>
+                    <h1>Welcome to CDF Trading Inc.</h1>
                     <h2>We are selling dried fish products and fresh products coming soon! Product of the Philippines
                     </h2>
                     <div class="d-flex justify-content-center justify-content-lg-start">
