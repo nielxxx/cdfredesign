@@ -83,7 +83,7 @@
         if($product=='p1'){
             $productinfo = ['name'=>'Boneless Dilis or Anchovy',
                 'info'=>
-                'Discription<br><br>
+                'Description<br><br>
                 Boneless dilis /bon-les di-lis/ Tagalog dried fish) [n.] deboned anchovies. Dilis or anchovies are small 
                 blue fish that abound in the Mediterranean Sea and the Pacific, Indian and Atlantic oceans. Dilis are between 
                 1 and 15 inches (3 and 40 cm) long and there are about 144 species worldwide. What is this? They are abundantly present in the Philippine waters.
@@ -99,7 +99,7 @@
         if($product=='p2'){
             $productinfo = ['name'=>'Dangit Boneless or Rabbit Fish',
                 'info'=>
-                'Discription<br><br>
+                'Description<br><br>
                 It’s a local Philippine favorite viand made from dried rabbitfish or spinefoot.
                 It has been a popular and is well known as a product of Cebu. Usually fried to crisp and often consumed and dipped in vinegar.
                 <br><br>
@@ -114,7 +114,7 @@
         if($product=='p3'){
             $productinfo = ['name'=>'Dried Dilis or Anchovy',
                 'info'=>
-                'Discription<br><br>
+                'Description<br><br>
                 Dilis tend to be quite salty. They are often used in salads, meat dishes, as well as sauces.
                 In the Philippines they can be bought fresh, dried, as a paste (bagoong), or in fish sauce such as patis.
                 <br><br>
@@ -129,7 +129,7 @@
         if($product=='p4'){
             $productinfo = ['name'=>'Dried Pusit or Squid',
                 'info'=>
-                'Discription<br><br>
+                'Description<br><br>
                 Pusit is a dried squid where many local Filipinos love to eat because of the soft, chewy texture and taste. It is very tasteful and is also best eaten during breakfast.
                 <br><br>
                 Process
@@ -143,7 +143,7 @@
         if($product=='p5'){
             $productinfo = ['name'=>'Tuyo or Salted Dried Fish',
                 'info'=>
-                'Discription<br><br>
+                'Description<br><br>
                 Tuyo refers to salted dried fish (usually herring); this is also known as stockfish in some countries. 
                 In the Philippines, tuyo is considered as a poor man’s food because of its cheap price – however, this 
                 connotation has been expunged over the years since people of different social status learned to love and enjoy it
@@ -160,7 +160,7 @@
         if($product=='p6'){
             $productinfo = ['name'=>'Dried Sapsap or Slipmouth Fish',
                 'info'=>
-                'Discription<br><br>
+                'Description<br><br>
                 The Common Pony fish is silvery with a brown saddle on the caudal peduncle. 
                 It has faint bars on the back and sometimes a dark blotch on the forehead. 
                 The anal fin is yellowish. Like all species in the genus Leiognathus, the Common Pony fish can extend its mouth into a downward pointing tube.
@@ -177,7 +177,7 @@
         if($product=='p7'){
             $productinfo = ['name'=>'Pusit Ballpen or Squid',
                 'info'=>
-                'Discription<br><br>
+                'Description<br><br>
                 Dried pusit is a favorite Filipino breakfast staple, best served with fried garlic rice, an egg thats either 
                 sunny side up or scrambled, vinegar with chilis as a dip, and a warm cup of coffee.
                 <br><br>
@@ -192,7 +192,7 @@
         if($product=='p8'){
             $productinfo = ['name'=>'Shrimp or Hibi',
                 'info'=>
-                'Discription<br><br>
+                'Description<br><br>
                 Dried hibi rich source of carotenoids, including astaxanthin, that will bring out the colors in both marine and freshwater fish. Proper handling and drying keeps natural flavourants, proteins and lipids largely intact.
                 <br><br>
                 Process
