@@ -66,7 +66,7 @@
     </header>
 
     <video autoplay muted loop id="myVideo">
-        <source src="assets\img\bg-video.mp4" type="video/mp4">
+        <source src="assets\img\pexels-rommell-viana-7732120.mp4" type="video/mp4">
     </video>
 
     <!-- Banner -->
