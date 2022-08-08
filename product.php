@@ -76,7 +76,8 @@
             'n5'=>'Tuyo','p5'=>'tuyo3',
             'n6'=>'Sapsap','p6'=>'sapsap1',
             'n7'=>'Pusit Ballpen','p7'=>'pusitballpen3',
-            'n8'=>'Shrimp','p8'=>'shrimp2',
+            'n8'=>'Hibi','p8'=>'shrimp2',
+            'n9'=>'Kalkag','p9'=>'kalkag',
         ];
 
         $product = $_GET['product'];
@@ -190,7 +191,7 @@
             $productpic = ['pusitballpen3','pusitballpen2'];
         }
         if($product=='p8'){
-            $productinfo = ['name'=>'Shrimp or Hibi',
+            $productinfo = ['name'=>'Hibi or Dried shrimp',
                 'info'=>
                 'Description<br><br>
                 Dried hibi rich source of carotenoids, including astaxanthin, that will bring out the colors in both marine and freshwater fish. Proper handling and drying keeps natural flavourants, proteins and lipids largely intact.
@@ -200,7 +201,21 @@
                 Clean the shrimp totally, wash water with salt, scattered equally on the drying trays, sundried to achieve the desired dryness, packed and vacuum sealed, stored in cool dry place.
                 '
             ];
-            $productpic = ['shrimp','shrimp2','shrimp3'];
+            $productpic = ['hibi1','shrimp2','shrimp3'];
+        }
+
+        if($product=='p9'){
+            $productinfo = ['name'=>'Shrimp or Kalkag',
+                'info'=>
+                'Description<br><br>
+                Kalkag are shrimp that have been sun-dried and shrunk to a thumbnail size. They are used in many East Asian, Southeast Asian and South Asian cuisines, imparting a unique umami taste.A handful of shrimp is generally used for dishes. The flavors of this ingredient are released when allowed to simmer.
+                <br><br>
+                Process
+                <br><br>
+                Clean the shrimp thoroughly, wash water with salt and distribute it on the drying trays. sundried to achieve the desired dryness, packed and vacuum sealed to preserve, store in cool dry place.
+                '
+            ];
+            $productpic = ['kalkag','kalkag-rice','kalkagnobackground'];
         }
     ?>
 
@@ -371,6 +386,9 @@
                                 }
                             if ($product!="p8"){
                                 other_product($other_product_info['p8'],$other_product_info['n8'],'p8');
+                                }
+                            if ($product!="p9"){
+                                other_product($other_product_info['p9'],$other_product_info['n9'],'p9');
                                 }
                         ?>
                         </div>
