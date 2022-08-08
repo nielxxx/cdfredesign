@@ -841,6 +841,10 @@ section {
 
 /*Services*/
 
+.services {
+    background-color: white;
+}
+
 .services .icon-box {
     box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
     padding: 50px 30px;
@@ -1401,6 +1405,10 @@ section {
 
 
 /*Contact*/
+
+.contact {
+    background-color: white;
+}
 
 .contact .info {
     border-top: 3px solid #47b2e4;
