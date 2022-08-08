@@ -63,7 +63,11 @@
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav>
         </div>
+        
     </header>
+
+       
+
     <?php
         if(empty($_GET['product'])){
             echo "<script> window.location.href = 'product.php?product=p1' </script>";
