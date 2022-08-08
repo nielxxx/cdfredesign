@@ -44,11 +44,11 @@
     <!-- Header-->
     <header id="header" class="fixed-top header-scrolled">
         <div class="container d-flex align-items-center">
-        <a href="#home" class="logo">
-        <img src="assets/img/CDF-Icon.png" height="80">
-        <h1 class="logo me-auto"><a href="index.php">CDF TRADING INC.</a></h1>
-        </a>
-           
+            <a href="#home" class="logo">
+                <img src="assets/img/CDF-Icon.png" height="80">
+                <h1 class="logo me-auto"><a href="index.php">CDF TRADING INC.</a></h1>
+            </a>
+
             <nav id="navbar" class="navbar">
                 <ul>
                     <li><a class="nav-link scrollto active" href="index.php#hero">Home</a></li>
@@ -65,6 +65,10 @@
         </div>
     </header>
 
+    <video autoplay muted loop id="myVideo">
+        <source src="assets\img\bg-video.mp4" type="video/mp4">
+    </video>
+
     <!-- Banner -->
     <section id="hero" class="d-flex align-items-center">
         <div class="container">
@@ -72,7 +76,8 @@
                 <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pb-4 pt-lg-0 order-2 order-lg-1"
                     data-aos="fade-up" data-aos-delay="200">
                     <h1>Welcome to CDF Trading Inc.</h1>
-                    <h2>We are selling dried fish products and fresh products coming soon! Product of the Philippines
+                    <h2>We are selling dried fish products and fresh products coming soon! Product of the
+                        Philippines
                     </h2>
                     <div class="d-flex justify-content-center justify-content-lg-start">
                         <a href="#about" class="btn-get-started scrollto">Get Started</a>
@@ -174,7 +179,7 @@
     </div>
 
     <main id="main">
-
+        <br><br><br>
         <!-- About -->
         <section id="about" class="about">
             <div class="container" data-aos="fade-up">
