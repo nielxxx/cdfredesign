@@ -69,7 +69,7 @@
             echo "<script> window.location.href = 'product.php?product=p1' </script>";
         }
         $other_product_info=[
-            'n1'=>'Boneless Dilis','p1'=>'boneless-dilis(m)1',
+            'n1'=>'Boneless Dilis','p1'=>'boneless-dilis(m)2',
             'n2'=>'Dangit Boneless','p2'=>'dangit-boneless(L)1',
             'n3'=>'Dilis','p3'=>'dilis(m)1',
             'n4'=>'Pusit','p4'=>'pusit(s)3',
@@ -95,7 +95,7 @@
                 then soaked in brine solution, drained, and sundried to become dried boneless dilis, packed and vacuum sealed to preserve and stored in cool dry place.
                 '
             ];
-            $productpic = ['boneless-dilis(m)1','boneless-dilis(m)2','boneless-dili5'];
+            $productpic = ['bonlessdilis','boneless-dilis(m)2','boneless-dili5'];
         }
         if($product=='p2'){
             $productinfo = ['name'=>'Dangit Boneless or Rabbit Fish',
