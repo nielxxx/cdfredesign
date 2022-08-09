@@ -59,7 +59,7 @@
                     <li><a class="nav-link scrollto" href="product.php#product">Product</a></li>
                     <li><a class="nav-link scrollto" href="index.php#contact">Inquire</a></li>
                     <li><a class="nav-link scrollto" href="index.php#footer">Contact</a></li>
-                    <li><a class="getstarted scrollto" href="index.php#about">Get Started</a></li>
+                    <li><a class="getstarted scrollto" href="loginIndex.php">Log in</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav>
