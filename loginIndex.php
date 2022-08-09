@@ -67,9 +67,47 @@
             </nav>
 -->
         </div>
-        
-    </header>
+</header>
+<!-- ======= Clients Section ======= --> 
+<br><br><br>
+<div class="section-title">
+    <br><br>
+            <h2>Choose what company you Invest </h2>
+            <p>Down below is the list of company choose the company you invest and log in/register.</p>
+        </div>
+<section id="clients" class="clients section-bg">
+      <div class="container">
 
+        <div class="row" data-aos="zoom-in">
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets\img\cdf_logo-removebg-preview.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets\img\cdf_logo-removebg-preview.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets\img\cdf_logo-removebg-preview.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets\img\cdf_logo-removebg-preview.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets\img\cdf_logo-removebg-preview.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets\img\cdf_logo-removebg-preview.png" class="img-fluid" alt="">
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Cliens Section -->
         <!-- Contact -->
         <br> <br>
         <?php include_once "loginForm.php"; ?>
