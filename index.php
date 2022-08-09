@@ -46,7 +46,9 @@
         <div class="container d-flex align-items-center">
             <a href="#home" class="logo">
                 <img src="assets/img/CDF-Icon.png" height="80">
-                <h1 class="logo me-auto"><a href="index.php">CDF TRADING INC.</a></h1>
+                <h1 class="logo me-auto">
+                    <a href="index.php" class="trade-mark">CDF TRADING INC.</a>
+                </h1>
             </a>
 
             <nav id="navbar" class="navbar">
