@@ -388,7 +388,8 @@ h6 {
     background: linear-gradient(rgba(0, 38, 87, 0.9), rgba(8, 0, 53, 0.9));
 }
 
-#hero .container {}
+
+/* #hero .container {} */
 
 #hero h1 {
     margin: 0 0 10px 0;
