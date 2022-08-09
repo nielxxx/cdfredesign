@@ -179,7 +179,6 @@
     </div>
 
     <main id="main">
-        <br><br><br>
         <!-- About -->
         <section id="about" class="about">
             <div class="container" data-aos="fade-up">
