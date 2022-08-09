@@ -28,6 +28,20 @@
                         </span>
                     </div>
                 </div>
+
+                <div class="col-lg-3 col-md-6 footer-contact">
+                    <h3>Log In</h3>
+                    <p>
+                        If you're an Investor you can <a href="#">Log In</a> to our portal
+                        <i class="bi bi-door-open-fill"></i>
+                        
+                        <br><br>
+                        If you're a Admin of this business you can <a href="#">Log In</a> to our system
+                        <i class="bi bi-person-fill"></i>
+                    </p>
+                </div>
+                
+            
             </div>
         </div>
     </div>
