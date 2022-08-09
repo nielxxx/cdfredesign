@@ -29,6 +29,7 @@
                     </div>
                 </div>
 
+
                 <div class="col-lg-3 col-md-6 footer-contact">
                     <h3>Log In</h3>
                     <p>
@@ -42,6 +43,15 @@
                 </div>
                 
             
+
+                <div class="col-lg-3 col-md-6 footer-links">
+                    <h4>Portal Links</h4>
+                    <ul>
+                        <li><i class="bx bx-chevron-right"></i> <a href="">Admin</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="">Investor</a></li>
+                    </ul>
+                </div>
+
             </div>
         </div>
     </div>

@@ -126,6 +126,18 @@ h6 {
     text-transform: uppercase;
 }
 
+@media (max-width: 400px) {
+    #header .trade-mark {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 356px) {
+    #header .trade-mark {
+        font-size: 20px;
+    }
+}
+
 #header .logo a {
     color: #fff;
 }
@@ -385,9 +397,11 @@ h6 {
     width: 100%;
     height: 100vh;
     /* background: #37517e; */
+    background: linear-gradient(rgba(0, 38, 87, 0.9), rgba(8, 0, 53, 0.9));
 }
 
-#hero .container {}
+
+/* #hero .container {} */
 
 #hero h1 {
     margin: 0 0 10px 0;
@@ -2179,8 +2193,44 @@ section {
     align-items: center;
     width: 100%;
     overflow: hidden;
-    margin-top: 10px;
+    margin-top: 50px;
     margin-bottom: 10px;
+}
+
+@media (max-width: 1399px) {
+    .main_image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        overflow: hidden;
+        margin-top: 60px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .main_image {
+        width: 100%;
+        overflow: hidden;
+        margin-top: 65px;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 992px) {
+    .main_image {
+        display: flex;
+        overflow: hidden;
+        margin-top: 25px;
+        margin-bottom: 10px;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
 }
 
 .main_image img {
